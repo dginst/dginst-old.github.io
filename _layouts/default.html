@@ -41,6 +41,12 @@
               <a href="{{ site.baseurl }}/">Home</a>
             {% endif %}
 
+            {% if page.url == "/vision/"} %}
+              <b><u><a href="{{ site.baseurl }}/vision/">Vision</a></u></b>
+            {% else %}
+              <a href="{{ site.baseurl }}/vision/">Vision</a>
+            {% endif %}
+
             {% if page.url == "/blog/"} %}
               <b><u><a href="{{ site.baseurl }}/blog/">Blog</a></u></b>
             {% else %}
