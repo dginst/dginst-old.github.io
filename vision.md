@@ -17,7 +17,7 @@ Bitcoin is the groundbreaking achievement by Satoshi Nakamoto, not the
 generic _blockchain technology_.
 
 <iframe width="560" height="315"
-        src="https://www.youtube.com/embed/VbwUwioZ9F0&t=340s"
+        src="https://www.youtube.com/embed/VbwUwioZ9F0"
         frameborder="0" allow="autoplay; encrypted-media"
         allowfullscreen>
 </iframe>
