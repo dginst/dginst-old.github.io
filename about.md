@@ -8,11 +8,12 @@ DIGITAL GOLD INSTITUTE S.R.L.
 Via Gorki n. 47  
 20098 San Giuliano Milanese (MI)  
 Codice Fiscale, Partita IVA e Registro Imprese 10481200961  
-REA CCIAA MI-2534614
+REA CCIAA MI-2534614 - Cap. Soc. € 10.000,00 I.V.
 
-email: <https://docs.google.com/forms/d/1FaYfnwQhdz009FkY9PS2BW-h2DAsDkP7Uj52c-Vn0XA/>
+web: <www.digitalgoldinstitute.org>
+email: <http://bit.ly/2QIzASj>
 
-PEC: dgi@pec.it
+PEC: [dgi@pec.it](mailto:dgi@pec.it)
 
 Bank Account:  
 SWIFT Code: BAPPIT21AH8  
