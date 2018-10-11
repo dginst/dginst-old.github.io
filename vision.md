@@ -42,7 +42,7 @@ i.e. a subpar data structure, instead of an efficient relational database?
           allowfullscreen>
 </iframe>
 
-There is no blockchain without bitcoin, anyway, as Andreas Antonopoulos said,
+There is no blockchain without bitcoin; anyway, as Andreas Antonopoulos said,
 _there is blockchain beyond bitcoin_: timestamping and notarization.
 
 A generic data file can be _hashed_ to produce a short unique identifier,
@@ -56,3 +56,8 @@ the process has been [standardized](https://www.opentimestamps.org/)
 to allow for third party auditability and it is suitable for regulatory
 prescriptions. What jewelry is for gold, notarization is for bitcoin:
 not essential, but effective at leveraging its beauty.
+
+Last but not least, when it comes to non-monetary applications for blockchain
+we believe that the most promising field is tech and tools for
+financial services, primarily crypto-assets custody for institutionals and
+high net worth individuals with funds under management.
