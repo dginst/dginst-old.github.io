@@ -4,7 +4,7 @@ title: Vision
 permalink: /vision/
 ---
 
-# Digital Gold
+# 1. Digital Gold
 
 Bitcoin has proved to be a bearer digital asset that can be transferred but
 not duplicated (i.e. it can be spent once, but not _double-spent_). Scarce in
@@ -24,7 +24,7 @@ Satoshi Nakamoto, not the so-called _blockchain technology_.
         allowfullscreen>
 </iframe>
 
-# The Misunderstanding About Blockchain
+# 2. The Misunderstanding About Blockchain
 
 Blockchain is just an append-only sequential data structure:
 new blocks (of bitcoin transactions) can be appended at the end of the chain,
@@ -56,7 +56,7 @@ i.e. a subpar data structure, instead of an efficient relational database?
           allowfullscreen>
 </iframe>
 
-# Blockchain Beyond Bitcoin: notarization
+# 3. Blockchain Beyond Bitcoin: notarization
 
 There is no blockchain without bitcoin; anyway, as Andreas Antonopoulos said,
 _there is blockchain beyond bitcoin_: timestamping and notarization.
@@ -75,7 +75,7 @@ to allow for third party auditability and it is suitable for regulatory
 prescriptions. What jewelry is for gold, notarization is for bitcoin:
 not essential, but effective at leveraging its beauty.
 
-# Blockchain Tecnology; Financial Services for Crypto-assets
+# 4. Financial Services for Crypto-assets
 
 Finally, even if interested only in genuine technologic application of
 blockchain, the most promising field is the development of
