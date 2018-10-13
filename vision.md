@@ -59,7 +59,7 @@ i.e. a subpar data structure, instead of an efficient relational database?
 # 3. Blockchain Beyond Bitcoin: notarization
 
 There is no blockchain without bitcoin; anyway, as Andreas Antonopoulos said,
-_there is blockchain beyond bitcoin_: timestamping and notarization.
+_there is blockchain beyond bitcoin_: time-stamping and notarization.
 
 A generic data file can be _hashed_ to produce a short unique identifier,
 equivalent to its digital fingerprint. Such a fingerprint can be associated
@@ -68,6 +68,10 @@ blockchain in a block generated at a given time.
 Therefore, the immutability of the bitcoin transaction registered
 on the blockchain implicitly provides time-stamping, proving the data
 file existence at that moment in time in that specific status.
+
+Here, the blockchain is used as notary service, ensuring that documents
+cannot be backdated. Please note that notarization cannot guarantee validity,
+correctness, or accuracy of the content being time-stamped.
 
 A single transaction can timestamp an unlimited number of documents:
 the process has been [standardized](https://www.opentimestamps.org/)
