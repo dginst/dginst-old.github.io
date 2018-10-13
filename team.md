@@ -6,8 +6,7 @@ permalink: /team/
 
 # Directors
 
-* Ferdinando M. Ametrano  
-  Executive Director
+* Ferdinando M. Ametrano, Executive Director
 
     Short bio: [Bitcoin and Blockchain Technology](https://www.ametrano.net/bbt/) at
                Milano Bicocca, and Politecnico di Milano.
