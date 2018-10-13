@@ -4,39 +4,39 @@ title: Team
 permalink: /team/
 ---
 
-# GitHub Organization: <https://github.com/dginst>
+<https://github.com/dginst>
 
-## Directors
+# Directors
 * Executive Director  
   Ferdinando M. Ametrano  
-  Web site: <www.ametrano.net/about/>
+  Web site: <www.ametrano.net/about/>  
   GitHub: <https://github.com/fametrano>
 * Chief Operating Officer  
   to be announced shortly
 
-## Current students
+# Current students
 
-* Andrea Brandoli
-  thesis:
+* Andrea Brandoli  
+  thesis:  
   GitHub: <https://github.com/AndreaBrandoli90>
-* Alessandro Miola
-  thesis:
+* Alessandro Miola  
+  thesis:  
   GitHub: <https://github.com/AlessandroMiola>
-* Giona Soldati
-  thesis:
+* Giona Soldati  
+  thesis:  
   GitHub: <https://github.com/gionasoldati>
-* Samuele Vianello
-  thesis:
+* Samuele Vianello  
+  thesis:  
   GitHub: <https://github.com/SamueleVianello>
 
-## Alumni
+# Alumni
 
-* Leonardo Comandini
-  thesis:
+* Leonardo Comandini  
+  thesis:  
   GitHub: <https://github.com/LeoComandini>
-* Daniele Fornaro
-  thesis:
+* Daniele Fornaro  
+  thesis:  
   GitHub: <https://github.com/danielefornaro>
-* Chiara Lelli
-  thesis:
+* Chiara Lelli  
+  thesis:  
   GitHub: <https://github.com/clelli>
