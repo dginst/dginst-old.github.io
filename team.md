@@ -20,8 +20,7 @@ permalink: /team/
 
     GitHub: [fametrano](https://github.com/fametrano)
 
-* to be announced shortly  
-  Chief Operating Officer
+* to be announced shortly, Chief Operating Officer
 
 # Current students
 
