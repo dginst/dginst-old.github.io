@@ -11,8 +11,8 @@ permalink: /team/
 
     Short bio: [Bitcoin and Blockchain Technology](https://www.ametrano.net/bbt/) at
                Milano Bicocca, and Politecnico di Milano.
-               [Hayek Money](https://ssrn.com/abstract=2832249) promoter,
-               [QuantLib](https://quantlib.org) founder,
+               [Hayek Money](https://ssrn.com/abstract=2425270) promoter,
+               [QuantLib](https://www.quantlib.org) founder,
                [Interest Rate Derivatives](https://www.ametrano.net/ird/)
                Adjunct Professor at Milano Bicocca.
                Ex-physicist, Springsteen fan, husband, father of three.
