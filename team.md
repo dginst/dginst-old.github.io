@@ -5,26 +5,29 @@ permalink: /team/
 ---
 
 # Directors
+
 * Ferdinando M. Ametrano  
   Executive Director
 
-  [Bitcoin and Blockchain Technology](https://www.ametrano.net/bbt/) at
-  Milano Bicocca, and Politecnico di Milano.
-  [Hayek Money](https://ssrn.com/abstract=2832249) promoter,
-  [QuantLib](https://quantlib.org) founder,
-  [Interest Rate Derivatives](https://www.ametrano.net/ird/)
-  Adjunct Professor at Milano Bicocca.
-  Ex-physicist, Springsteen fan, husband, father of three.
+    Short bio: [Bitcoin and Blockchain Technology](https://www.ametrano.net/bbt/) at
+               Milano Bicocca, and Politecnico di Milano.
+               [Hayek Money](https://ssrn.com/abstract=2832249) promoter,
+               [QuantLib](https://quantlib.org) founder,
+               [Interest Rate Derivatives](https://www.ametrano.net/ird/)
+               Adjunct Professor at Milano Bicocca.
+               Ex-physicist, Springsteen fan, husband, father of three.
 
-  Personal web site: <https://www.ametrano.net/about/>  
-  GitHub: [fametrano](https://github.com/fametrano)
+    Personal web site: <https://www.ametrano.net/about/>
+
+    GitHub: [fametrano](https://github.com/fametrano)
+
 * to be announced shortly  
   Chief Operating Officer
 
 # Current students
 
 * Andrea Brandoli  
-  thesis:  
+  Thesis:  
   GitHub: [AndreaBrandoli90](https://github.com/AndreaBrandoli90)
 * Alessandro Miola  
   Thesis:  
