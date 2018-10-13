@@ -20,23 +20,23 @@ permalink: /team/
   thesis:  
   GitHub: <https://github.com/AndreaBrandoli90>
 * Alessandro Miola  
-  thesis:  
+  Thesis:  
   GitHub: <https://github.com/AlessandroMiola>
 * Giona Soldati  
-  thesis:  
+  Thesis:  
   GitHub: <https://github.com/gionasoldati>
 * Samuele Vianello  
-  thesis:  
+  Thesis:  
   GitHub: <https://github.com/SamueleVianello>
 
 # Alumni
 
 * Leonardo Comandini  
-  thesis:  
+  Thesis:  
   GitHub: <https://github.com/LeoComandini>
 * Daniele Fornaro  
-  thesis:  
+  Thesis:  
   GitHub: <https://github.com/danielefornaro>
 * Chiara Lelli  
-  thesis:  
+  Thesis:  
   GitHub: <https://github.com/clelli>
