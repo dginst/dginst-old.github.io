@@ -4,17 +4,17 @@ title: Vision
 permalink: /vision/
 ---
 
-Bitcoin has proved to be a bearer asset that can be transferred but not
-duplicated (i.e. it can be spent, but not double-spent). Scarce in
+Bitcoin has proved to be a bearer digital asset that can be transferred but
+not duplicated (i.e. it can be spent once, but not _double-spent_). Scarce in
 digital realm as nothing else before, bitcoin is digital gold with an
 embedded settlement network. More a crypto-commodity then a crypto-currency,
 bitcoin aims to be a world reserve asset.
 
 If one thinks about the role of physical gold in the history of civilization,
-money, and finance the digital equivalent of gold could be disruptive in the
-current digital civilization and the future of money and finance.
-Bitcoin is the groundbreaking achievement by Satoshi Nakamoto, not the
-so-called _blockchain technology_.
+money, and finance, then it becomes clear that the digital equivalent of gold
+could be disruptive in the current digital civilization and the future of
+money and finance. Bitcoin is the groundbreaking achievement by
+Satoshi Nakamoto, not the so-called _blockchain technology_.
 
 <iframe width="560" height="315"
         src="https://www.youtube.com/embed/VbwUwioZ9F0"
@@ -23,7 +23,7 @@ so-called _blockchain technology_.
 </iframe>
 
 Blockchain is just an append-only sequential data structure:
-new blocks (of transactions) can be appended at the end of the chain,
+new blocks (of bitcoin transactions) can be appended at the end of the chain,
 to change a block in the middle of the chain all subsequent blocks need
 to be changed. As such, it is very inefficient compared to a
 relational database.
@@ -31,9 +31,19 @@ relational database.
 Blockchain requires an intrinsic native digital asset to solve the
 double-spending problem, i.e. to provide the economic incentives
 for the so-called _miners_ (the blockchain back-office) to be honest.
-A blockchain without such an asset
-needs to select and appoint its back-office operators, ultimately resorting
-to central governance. If this is the case why use a blockchain,
+Miners compete to validate a new block of transactions because
+the winner providing _proof-of-work_ of a new block finalization is
+rewarded with the issuance of new bitcoins in a special _coinbase_
+transaction included in that same block. This economic incentive induces
+miners to reject double-spending attempts and only finalize valid transactions;
+otherwise the block would be deemed invalid by the network and rejected,
+removing it (and the included coinbase reward) from the transaction history:
+ultimately, the winning miner would have just wasted his work.
+
+A blockchain without an intrinsic native digital asset providing value and
+seigniorage revenues would need to select and appoint its back-office
+operators, ultimately resorting to central governance.
+If this is the case, then why use a blockchain,
 i.e. a subpar data structure, instead of an efficient relational database?
 
 <iframe width="560" height="315"
@@ -48,7 +58,9 @@ _there is blockchain beyond bitcoin_: timestamping and notarization.
 A generic data file can be _hashed_ to produce a short unique identifier,
 equivalent to its digital fingerprint. Such a fingerprint can be associated
 to a bitcoin transaction (of irrelevant amount) and hence registered on the
-blockchain. Blockchain immutability provides time-stamping, proving the data
+blockchain in a block generated at a given time.
+Therefore, the immutability of the bitcoin transaction registered
+on the blockchain implicitly provides time-stamping, proving the data
 file existence at that moment in time in that specific status.
 
 A single transaction can timestamp an unlimited number of documents:
@@ -57,7 +69,7 @@ to allow for third party auditability and it is suitable for regulatory
 prescriptions. What jewelry is for gold, notarization is for bitcoin:
 not essential, but effective at leveraging its beauty.
 
-Last but not least, when it comes to non-monetary applications for blockchain
-we believe that the most promising field is tech and tools for
-financial services, primarily crypto-assets custody for institutionals and
-high net worth individuals with funds under management.
+Finally, even if interested only in genuine technologic application of
+blockchain, the most promising field is the development of
+tools and practices for financial services involving crypto-assets,
+primarily custody for institutionals and high net worth individuals.
