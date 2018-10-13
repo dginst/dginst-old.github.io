@@ -7,12 +7,12 @@ permalink: /team/
 <https://github.com/dginst>
 
 # Directors
-* Executive Director  
-  Ferdinando M. Ametrano  
+* Ferdinando M. Ametrano  
+  Executive Director  
   Web site: <www.ametrano.net/about/>  
   GitHub: <https://github.com/fametrano>
-* Chief Operating Officer  
-  to be announced shortly
+* to be announced shortly  
+  Chief Operating Officer
 
 # Current students
 
