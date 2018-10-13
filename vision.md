@@ -4,6 +4,8 @@ title: Vision
 permalink: /vision/
 ---
 
+# Digital Gold
+
 Bitcoin has proved to be a bearer digital asset that can be transferred but
 not duplicated (i.e. it can be spent once, but not _double-spent_). Scarce in
 digital realm as nothing else before, bitcoin is digital gold with an
@@ -22,6 +24,8 @@ Satoshi Nakamoto, not the so-called _blockchain technology_.
         allowfullscreen>
 </iframe>
 
+# The Misunderstanding About Blockchain
+
 Blockchain is just an append-only sequential data structure:
 new blocks (of bitcoin transactions) can be appended at the end of the chain,
 to change a block in the middle of the chain all subsequent blocks need
@@ -31,17 +35,17 @@ relational database.
 Blockchain requires an intrinsic native digital asset to solve the
 double-spending problem, i.e. to provide the economic incentives
 for the so-called _miners_ (the blockchain back-office) to be honest.
-Miners compete to validate a new block of transactions because
+Miners compete to validate a new block of transactions:
 the winner providing _proof-of-work_ of a new block finalization is
 rewarded with the issuance of new bitcoins in a special _coinbase_
-transaction included in that same block. This economic incentive induces
+transaction, included in that same block. This economic incentive induces
 miners to reject double-spending attempts and only finalize valid transactions;
 otherwise the block would be deemed invalid by the network and rejected,
 removing it (and the included coinbase reward) from the transaction history:
 ultimately, the winning miner would have just wasted his work.
 
-A blockchain without an intrinsic native digital asset providing value and
-seigniorage revenues would need to select and appoint its back-office
+Without an intrinsic native digital asset providing 
+seigniorage revenues, a blockchain would need to select and appoint its back-office
 operators, ultimately resorting to central governance.
 If this is the case, then why use a blockchain,
 i.e. a subpar data structure, instead of an efficient relational database?
@@ -51,6 +55,8 @@ i.e. a subpar data structure, instead of an efficient relational database?
           frameborder="0" allow="autoplay; encrypted-media"
           allowfullscreen>
 </iframe>
+
+# Blockchain Beyond Bitcoin: notarization
 
 There is no blockchain without bitcoin; anyway, as Andreas Antonopoulos said,
 _there is blockchain beyond bitcoin_: timestamping and notarization.
@@ -68,6 +74,8 @@ the process has been [standardized](https://www.opentimestamps.org/)
 to allow for third party auditability and it is suitable for regulatory
 prescriptions. What jewelry is for gold, notarization is for bitcoin:
 not essential, but effective at leveraging its beauty.
+
+# Blockchain Tecnology; Financial Services for Crypto-assets
 
 Finally, even if interested only in genuine technologic application of
 blockchain, the most promising field is the development of
