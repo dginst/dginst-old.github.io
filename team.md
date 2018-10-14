@@ -21,10 +21,10 @@ permalink: /team/
 # Current students
 
 * Andrea Brandoli  
-  Thesis: https://github.com/AndreaBrandoli90/MasterThesis.git  
+  Thesis: <https://github.com/AndreaBrandoli90/MasterThesis>  
   GitHub: [AndreaBrandoli90](https://github.com/AndreaBrandoli90)
 * Alessandro Miola  
-  Thesis: (https://github.com/AlessandroMiola/Thesis)   
+  Thesis: <https://github.com/AlessandroMiola/Thesis>   
   GitHub: [AlessandroMiola](https://github.com/AlessandroMiola)
 * Giona Soldati  
   Thesis:  
