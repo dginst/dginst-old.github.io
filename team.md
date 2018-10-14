@@ -24,7 +24,7 @@ permalink: /team/
   Thesis: https://github.com/AndreaBrandoli90/MasterThesis.git  
   GitHub: [AndreaBrandoli90](https://github.com/AndreaBrandoli90)
 * Alessandro Miola  
-  Thesis:  
+  Thesis: (https://github.com/AlessandroMiola/Thesis)   
   GitHub: [AlessandroMiola](https://github.com/AlessandroMiola)
 * Giona Soldati  
   Thesis:  
