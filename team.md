@@ -21,7 +21,7 @@ permalink: /team/
 # Current students
 
 * Andrea Brandoli  
-  Thesis:  
+  Thesis: https://github.com/AndreaBrandoli90/MasterThesis.git  
   GitHub: [AndreaBrandoli90](https://github.com/AndreaBrandoli90)
 * Alessandro Miola  
   Thesis:  
