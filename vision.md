@@ -4,7 +4,7 @@ title: Vision
 permalink: /vision/
 ---
 
-Bitcoin has proved to be a bearer asset that can be transferred but not
+Bitcoin has proved to be a bearer digital asset that can be transferred but not
 duplicated (i.e. it can be spent, but not double-spent). Scarce in
 digital realm as nothing else before, bitcoin is digital gold with an
 embedded settlement network. More a crypto-commodity then a crypto-currency,
