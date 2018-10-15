@@ -10,7 +10,7 @@ Codice Fiscale, Partita IVA e Registro Imprese: 10481200961
 REA CCIAA MI-2534614 - Capitale Sociale €10000 interamente versato
 
 web: <https://www.digitalgoldinstitute.org>  
-email contact: <http://bit.ly/2QIzASj>  
+email contact form: <http://bit.ly/2QIzASj>  
 PEC: [dginst@pec.it](mailto:dginst@pec.it)
 
 Bank: Credito Bergamasco  
