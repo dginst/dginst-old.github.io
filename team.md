@@ -30,7 +30,7 @@ permalink: /team/
   Thesis:  
   GitHub: [gionasoldati](https://github.com/gionasoldati)
 * Samuele Vianello  
-  Thesis:  
+  Thesis: <https://github.com/SamueleVianello/MasterThesis>  
   GitHub: [SamueleVianello](https://github.com/SamueleVianello)
 
 # Alumni
