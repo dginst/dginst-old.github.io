@@ -27,7 +27,7 @@ permalink: /team/
   Thesis: <https://github.com/AlessandroMiola/Thesis>   
   GitHub: [AlessandroMiola](https://github.com/AlessandroMiola)
 * Giona Soldati  
-  Thesis:  
+  Thesis: <https://github.com/gionasoldati/thesis>
   GitHub: [gionasoldati](https://github.com/gionasoldati)
 * Samuele Vianello  
   Thesis: <https://github.com/SamueleVianello/MasterThesis>  
