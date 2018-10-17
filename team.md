@@ -36,7 +36,7 @@ permalink: /team/
 # Alumni
 
 * Leonardo Comandini  
-  Thesis:  
+  Thesis: sign-to-contract: how to achieve digital notarization with zero marginal cost. [PDF](https://www.politesi.polimi.it/bitstream/10589/140124/1/2018_04_Comandini.pdf) [source](https://github.com/LeoComandini/Thesis)
   GitHub: [LeoComandini](https://github.com/LeoComandini)
 * Daniele Fornaro  
   Thesis:  
