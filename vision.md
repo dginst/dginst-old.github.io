@@ -8,7 +8,7 @@ permalink: /vision/
 
 Bitcoin has proved to be a bearer digital asset that can be transferred but
 not duplicated (i.e. it can be spent once, but not _double-spent_). Scarce in
-digital realm as nothing else before, bitcoin is digital gold with an
+digital realm as nothing else before, bitcoin is digital gold with a secure
 embedded settlement network. More a crypto-commodity then a crypto-currency,
 bitcoin aims to be a world reserve asset.
 
@@ -74,7 +74,7 @@ cannot be backdated. Please note that notarization cannot guarantee validity,
 correctness, or accuracy of the content being time-stamped.
 
 A single transaction can timestamp an unlimited number of documents:
-the process has been [standardized](https://www.opentimestamps.org/)
+the process has been standardized [OpenTimestamps](https://www.opentimestamps.org/)
 to allow for third party auditability and it is suitable for regulatory
 prescriptions. What jewelry is for gold, notarization is for bitcoin:
 not essential, but effective at leveraging its beauty.
