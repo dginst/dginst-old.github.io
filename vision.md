@@ -56,7 +56,7 @@ i.e. a subpar data structure, instead of an efficient relational database?
           allowfullscreen>
 </iframe>
 
-# 3. Blockchain Beyond Bitcoin: notarization
+# 3. Blockchain Beyond Bitcoin: Notarization
 
 There is no blockchain without bitcoin; anyway, as Andreas Antonopoulos said,
 _there is blockchain beyond bitcoin_: time-stamping and notarization.
@@ -81,7 +81,9 @@ not essential, but effective at leveraging its beauty.
 
 # 4. Financial Services for Crypto-assets
 
-Finally, even if interested only in genuine technologic application of
+Even if interested only in genuine technologic applications of
 blockchain, the most promising field is the development of
 tools and practices for financial services involving crypto-assets,
 primarily custody for institutionals and high net worth individuals.
+
+_Digital gold is what matters._
