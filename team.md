@@ -39,7 +39,7 @@ permalink: /team/
   Thesis: _Sign-to-contract: how to achieve digital notarization with zero marginal cost_ ([pdf](https://www.politesi.polimi.it/bitstream/10589/140124/1/2018_04_Comandini.pdf), [source](https://github.com/LeoComandini/Thesis))  
   GitHub: [LeoComandini](https://github.com/LeoComandini)
 * Daniele Fornaro  
-  Thesis:  
+  Thesis: _Elliptic Curve Hierarchical Deterministic Private Key Sequences: Bitcoin Standards and Best Practices_ ([pdf](https://www.politesi.polimi.it/bitstream/10589/140112/1/2018_04_Fornaro.pdf), [source](https://github.com/danielefornaro/Tesi))
   GitHub: [danielefornaro](https://github.com/danielefornaro)
 * Chiara Lelli  
   Thesis:  
