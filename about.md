@@ -16,3 +16,13 @@ PEC: [dginst@pec.it](mailto:dginst@pec.it)
 Bank: Credito Bergamasco  
 SWIFT Code: BAPPIT21AH8  
 IBAN Code: IT72Y0503433730000000015343
+
+![Digital Gold Institute SVG Logo](/images/dgi hor square.svg)
+
+![Digital Gold Institute SVG Logo](/images/dgi hor.svg)
+
+![Digital Gold Institute SVG Logo](/images/dgi round.svg)
+
+![Digital Gold Institute SVG Logo](/images/dgi simple.svg)
+
+![Digital Gold Institute SVG Logo](/images/dgi square.svg)
