@@ -17,12 +17,12 @@ Bank: Credito Bergamasco
 SWIFT Code: BAPPIT21AH8  
 IBAN Code: IT72Y0503433730000000015343
 
-![Digital Gold Institute SVG Logo](/images/logo/dgi-hor.svg)
+[![Digital Gold Institute SVG Logo](/images/logo/dgi-hor.svg)](/images/logo/dgi-hor.svg)
 
-![Digital Gold Institute SVG Logo](/images/logo/dgi-hor-border.svg)
+[![Digital Gold Institute SVG Logo](/images/logo/dgi-hor-border.svg)](/images/logo/dgi-hor-border.svg)
 
-![Digital Gold Institute SVG Logo](/images/logo/dgi-square.svg)
+[![Digital Gold Institute SVG Logo](/images/logo/dgi-square.svg)](/images/logo/dgi-square.svg)
 
-![Digital Gold Institute SVG Logo](/images/logo/dgi-square-border.svg)
+[![Digital Gold Institute SVG Logo](/images/logo/dgi-square-border.svg)](/images/logo/dgi-square-border.svg)
 
-![Digital Gold Institute SVG Logo](/images/logo/dgi-round.svg)
+[![Digital Gold Institute SVG Logo](/images/logo/dgi-round.svg)](/images/logo/dgi-round.svg)
