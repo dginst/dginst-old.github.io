@@ -74,7 +74,7 @@ cannot be backdated. Please note that notarization cannot guarantee validity,
 correctness, or accuracy of the content being time-stamped.
 
 A single transaction can timestamp an unlimited number of documents:
-the process has been standardized [OpenTimestamps](https://www.opentimestamps.org/)
+the process has been standardized as [OpenTimestamps](https://www.opentimestamps.org/)
 to allow for third party auditability and it is suitable for regulatory
 prescriptions. What jewelry is for gold, notarization is for bitcoin:
 not essential, but effective at leveraging its beauty.
