@@ -19,10 +19,10 @@ IBAN Code: IT72Y0503433730000000015343
 
 [![Digital Gold Institute SVG Logo](/images/logo/dgi-hor-neg.svg)](/images/logo/dgi-hor-neg.svg)
 
-[![Digital Gold Institute SVG Logo](/images/logo/dgi-hor-border.svg)](/images/logo/dgi-hor-border.svg)
+[![Digital Gold Institute SVG Logo](/images/logo/dgi-hor-border-neg.svg)](/images/logo/dgi-hor-border-neg.svg)
 
 [![Digital Gold Institute SVG Logo](/images/logo/dgi-square-neg.svg)](/images/logo/dgi-square-neg.svg)
 
-[![Digital Gold Institute SVG Logo](/images/logo/dgi-square-border.svg)](/images/logo/dgi-square-border.svg)
+[![Digital Gold Institute SVG Logo](/images/logo/dgi-square-border-neg.svg)](/images/logo/dgi-square-border-neg.svg)
 
 [![Digital Gold Institute SVG Logo](/images/logo/dgi-round-neg.svg)](/images/logo/dgi-round-neg.svg)
