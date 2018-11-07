@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About2
-permalink: /about2/
+title: Logo
+permalink: /logo/
 ---
 
 DIGITAL GOLD INSTITUTE SRL  
