@@ -63,7 +63,7 @@ _there is blockchain beyond bitcoin_: time-stamping and notarization.
 
 A generic data file can be _hashed_ to produce a short unique identifier,
 equivalent to its digital fingerprint. Such a fingerprint can be associated
-to a bitcoin transaction (of irrelevant amount) and hence registered on the
+to a bitcoin transaction and hence registered on the
 blockchain in a block generated at a given time.
 Therefore, the immutability of the bitcoin transaction registered
 on the blockchain implicitly provides time-stamping, proving the data
@@ -81,8 +81,8 @@ not essential, but effective at leveraging its beauty.
 
 # 4. Financial Services for Crypto-assets
 
-Even if interested only in genuine technologic applications of
-blockchain, the most promising field is the development of
+Even if one is only interested in genuine technologic applications of blockchain,
+the most promising field is the development of
 tools and practices for financial services involving crypto-assets,
 primarily custody for institutionals and high net worth individuals.
 
