@@ -58,7 +58,7 @@ i.e. a subpar data structure, instead of an efficient relational database?
 
 # 3. Blockchain Beyond Bitcoin: Notarization
 
-There is no blockchain without bitcoin; anyway, as Andreas Antonopoulos said,
+There is no blockchain without bitcoin; however, as Andreas Antonopoulos said,
 _there is blockchain beyond bitcoin_: time-stamping and notarization.
 
 A generic data file can be _hashed_ to produce a short unique identifier,
