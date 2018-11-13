@@ -17,14 +17,22 @@ Bank: Credito Bergamasco
 SWIFT Code: BAPPIT21AH8  
 IBAN Code: IT72Y0503433730000000015343
 
-[![Digital Gold Institute SVG Logo](/images/logo/dgi-hor-noborder.svg)](/images/logo/dgi-hor-noborder.svg)
+[![SVG rectangular logo without border](/images/logo/dgi-hor-noborder.svg)](/images/logo/dgi-hor-noborder.svg)  
+SVG rectangular logo without border
 
-[![Digital Gold Institute SVG Logo](/images/logo/dgi-hor-border.svg)](/images/logo/dgi-hor-border.svg)
+[![SVG rectangular logo with border](/images/logo/dgi-hor-border.svg)](/images/logo/dgi-hor-border.svg)  
+SVG rectangular logo with border
 
-[![Digital Gold Institute SVG Logo](/images/logo/dgi-square-noborder.svg)](/images/logo/dgi-square-noborder.svg)
+[![SVG square logo without border](/images/logo/dgi-square-noborder.svg)](/images/logo/dgi-square-noborder.svg)  
+SVG square logo without border
 
-[![Digital Gold Institute SVG Logo](/images/logo/dgi-square-border.svg)](/images/logo/dgi-square-border.svg)
+[![SVG square logo with border](/images/logo/dgi-square-border.svg)](/images/logo/dgi-square-border.svg)  
+SVG square logo with border
 
-[![Digital Gold Institute SVG Logo](/images/logo/dgi-round-border.svg)](/images/logo/dgi-round-border.svg)
+[![SVG round logo without border](/images/logo/dgi-round-noborder.svg)](/images/logo/dgi-round-border.svg)  
+SVG round logo without border
 
-For dark backgounds, white-on-black text logos are available [here](/logo/) 
+[![SVG round logo with border](/images/logo/dgi-round-border.svg)](/images/logo/dgi-round-border.svg)  
+SVG round logo with border
+
+For dark backgounds, white-on-black text logos are available [here](/logo/)
