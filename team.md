@@ -42,5 +42,5 @@ permalink: /team/
   Thesis: _Elliptic Curve Hierarchical Deterministic Private Key Sequences: Bitcoin Standards and Best Practices_ ([pdf](https://www.politesi.polimi.it/bitstream/10589/140112/1/2018_04_Fornaro.pdf), [source](https://github.com/danielefornaro/Tesi))  
   GitHub: [danielefornaro](https://github.com/danielefornaro)
 * Chiara Lelli  
-  Thesis:  
+  Thesis: _Schnorr signature: additivity and multisignature_ ([source](https://github.com/clelli/Schnorr))
   GitHub: [clelli](https://github.com/clelli)
