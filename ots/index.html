@@ -16,8 +16,9 @@
 <body>
 <div class="container">
     <div class="page-header">
-        <h1>JAVASCRIPT OPENTIMESTAMPS TOOLS</h1>
+        <h1>OPENTIMESTAMPS TOOLS</h1>
         <p>Github project: <a href="https://github.com/fametrano/javascript-opentimestamps-tools">https://github.com/fametrano/javascript-opentimestamps-tools</a></p>
+        <p>Connectivity is only needed for the <em>Get hexadecimal OTS (stamp)</em> action; for all other actions data is processed locally.</p>
     </div>
 
 
@@ -27,7 +28,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="form-group">
-                        <label for="gethash-file">Data File</label>
+                        <label for="gethash-file">Data File (locally processed)</label>
                         <input type="file" id="gethash-file" class="form-control" accept='*' placeholder="filename.ext"/>
                     </div>
                     <div class="form-group">
@@ -185,7 +186,7 @@
                     </div>
                 </div>
             </div>
-            <button class="btn btn-primary" id="btn-upload">UPLOAD OTS</button>
+            <button class="btn btn-primary" id="btn-upload">DESERIALIZE OTS FROM FILE</button>
         </div>
     </div>
 
@@ -208,7 +209,7 @@
                     </div>
                 </div>
             </div>
-            <button class="btn btn-primary" id="btn-download">DOWNLOAD OTS</button>
+            <button class="btn btn-primary" id="btn-download">SERIALIZE OTS IN FILE</button>
         </div>
     </div>
 
