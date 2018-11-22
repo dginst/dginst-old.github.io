@@ -27,6 +27,9 @@ $("#btn-gethash").click(function(event){
             const detached = OpenTimestamps.DetachedTimestampFile.fromBytes(op, binary);
             var encrypted = detached.fileDigest();
             $("#gethash-hash").val(bytesToHex(encrypted));
+
+            $("##stamp-hash").val(bytesToHex(encrypted));
+            $("#stamp-type").val(hashType)
         };
     })(file);
     reader.readAsArrayBuffer(file);
