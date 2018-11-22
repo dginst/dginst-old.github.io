@@ -25,11 +25,16 @@ $("#btn-gethash").click(function(event){
                 op = new OpenTimestamps.Ops.OpRIPEMD160();
             }
             const detached = OpenTimestamps.DetachedTimestampFile.fromBytes(op, binary);
-            var encrypted = detached.fileDigest();
-            $("#gethash-hash").val(bytesToHex(encrypted));
+            var digest = detached.fileDigest();
+            var hexdigest = bytesToHex(digest);
+            
+            $("#gethash-hash").val(hexdigest);
 
-            $("#stamp-hash").val(bytesToHex(encrypted));
             $("#stamp-type").val(hashType)
+            $("#stamp-hash").val(hexdigest);
+
+            $("#verify-type").val(hashType)
+            $("#verify-hash").val(hexdigest);
         };
     })(file);
     reader.readAsArrayBuffer(file);
