@@ -56,7 +56,7 @@ $("#btn-stamp").click(function(event){
     }
     const detached = OpenTimestamps.DetachedTimestampFile.fromHash(op, hashData);
     OpenTimestamps.stamp(detached).then( () => {
-        hexots = bytesToHex(detached.serializeToBytes())
+        hexots = bytesToHex(detached.serializeToBytes());
         $("#stamp-ots").val(hexots);
         $("#download-hex").val(hexots)
         $("#info-ots").val(hexots);
@@ -81,7 +81,10 @@ $("#btn-upgrade").click(function(event){
     const ots = hexToBytes($("#upgrade-inots").val());
     const detachedOts = OpenTimestamps.DetachedTimestampFile.deserialize(ots);
     OpenTimestamps.upgrade(detachedOts).then( (changed)=>{
-        $("#upgrade-outots").val(bytesToHex(detachedOts.serializeToBytes()));
+        var hexots = bytesToHex(detachedOts.serializeToBytes());
+        $("#upgrade-outots").val(hexots);
+        $("#verify-ots").val(hexots);
+
         if(changed === true) {
             $("#upgrade-log").val("OTS upgraded");
         } else {
@@ -131,7 +134,10 @@ $("#btn-upload").click(function(event){
     reader.onload = (function(theFile) {
         return function(e) {
             var binary = new Uint8Array(e.target.result);
-            $("#upload-hex").val(bytesToHex(binary));
+            var hexots = bytesToHex(binary);
+            $("#upload-hex").val(hexots);
+            $("#upgrade-inots").val(hexots);
+            $("#verify-ots").val(hexots);
         };
     })(file);
     reader.readAsArrayBuffer(file);
@@ -142,9 +148,12 @@ $("#btn-upload").click(function(event){
 $("#btn-download").click(function(event){
     event.preventDefault();
     var filename = $("#download-filename").val();
-    var hex = $("#download-hex").val();
-    var text = hex2ascii(hex);
+    var hexots = $("#download-hex").val();
+    var text = hex2ascii(hexots);
     var blob = new Blob([text], {type: "octet/stream"});
     saveAs(blob, filename);
-    return false;
+    $("#info-ots").val(hexots);
+    $("#upgrade-inots").val(hexots);
+    $("#verify-ots").val(hexots);
+return false;
 });
