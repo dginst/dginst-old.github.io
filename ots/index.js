@@ -27,7 +27,7 @@ $("#btn-gethash").click(function(event){
             const detached = OpenTimestamps.DetachedTimestampFile.fromBytes(op, binary);
             var digest = detached.fileDigest();
             var hexdigest = bytesToHex(digest);
-            
+
             $("#gethash-hash").val(hexdigest);
 
             $("#stamp-type").val(hashType)
@@ -56,7 +56,12 @@ $("#btn-stamp").click(function(event){
     }
     const detached = OpenTimestamps.DetachedTimestampFile.fromHash(op, hashData);
     OpenTimestamps.stamp(detached).then( () => {
-        $("#stamp-ots").val(bytesToHex(detached.serializeToBytes()));
+        hexots = bytesToHex(detached.serializeToBytes())
+        $("#stamp-ots").val(hexots);
+        $("#download-hex").val(hexots)
+        $("#info-ots").val(hexots);
+        $("#upgrade-inots").val(hexots);
+        $("#verify-ots").val(hexots);
     });
     return false;
 });
