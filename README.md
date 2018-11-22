@@ -1,1 +1,3 @@
-## Repo for the Digital Gold Institute website: <https://www.digitalgoldinstitute.org>
+# Repo for the Digital Gold Institute website
+
+<https://www.digitalgoldinstitute.org>
