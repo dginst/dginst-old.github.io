@@ -28,7 +28,7 @@ $("#btn-gethash").click(function(event){
             var encrypted = detached.fileDigest();
             $("#gethash-hash").val(bytesToHex(encrypted));
 
-            $("##stamp-hash").val(bytesToHex(encrypted));
+            $("#stamp-hash").val(bytesToHex(encrypted));
             $("#stamp-type").val(hashType)
         };
     })(file);
