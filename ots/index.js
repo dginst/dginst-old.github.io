@@ -71,11 +71,14 @@ $("#btn-stamp").click(function(event){
 
 $("#btn-info").click(function(event){
     event.preventDefault();
-    const ots = hexToBytes($("#info-ots").val());
+    var hexots = $("#info-ots").val();
+    const ots = hexToBytes(hexots);
     const detachedOts = OpenTimestamps.DetachedTimestampFile.deserialize(ots);
     const infoResult = OpenTimestamps.info(detachedOts);
     $("#info-info").val(infoResult);
-    return false;
+    $("#upgrade-inots").val(hexots);
+    $("#verify-ots").val(hexots);
+return false;
 });
 
 $("#btn-upgrade").click(function(event){
