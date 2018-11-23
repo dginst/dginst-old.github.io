@@ -83,9 +83,9 @@ $("#btn-upgrade").click(function(event){
     const ots = hexToBytes($("#upgrade-inots").val());
     const detachedOts = OpenTimestamps.DetachedTimestampFile.deserialize(ots);
     OpenTimestamps.upgrade(detachedOts).then( (changed)=>{
+        var hexots = bytesToHex(detachedOts.serializeToBytes());        
         if(changed === true) {
-            var hexots = bytesToHex(detachedOts.serializeToBytes());
-            $("#upgrade-outots").val(bytesToHex(detachedOts.serializeToBytes()));
+            $("#upgrade-outots").val(hexots);
             $("#verify-ots").val(hexots);
         } else {
             $("#upgrade-outots").val("Upgrade not available");
