@@ -35,6 +35,8 @@ $("#btn-gethash").click(function(event){
 
             $("#verify-type").val(hashType)
             $("#verify-hash").val(hexdigest);
+
+            $("#download-filename").val($("#gethash-file")[0]);
         };
     })(file);
     reader.readAsArrayBuffer(file);
@@ -83,10 +85,10 @@ $("#btn-upgrade").click(function(event){
     OpenTimestamps.upgrade(detachedOts).then( (changed)=>{
         if(changed === true) {
             var hexots = bytesToHex(detachedOts.serializeToBytes());
-            $("#upgrade-outots").val(hexots);
+            $("#upgrade-outots").val(bytesToHex(detachedOts.serializeToBytes()));
             $("#verify-ots").val(hexots);
         } else {
-            $("#upgrade-outots").val("Not upgraded");
+            $("#upgrade-outots").val("Upgrade not available");
         }
     });
     return false;
