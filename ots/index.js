@@ -45,6 +45,7 @@ $("#btn-gethash").click(function(event){
 
 $("#btn-stamp").click(function(event){
     event.preventDefault();
+    $("#stamp-ots").val("Waiting for result");
     var hashType = $("#stamp-type").val();
     var hash = $("#stamp-hash").val();
     const hashData = hexToBytes(hash);
@@ -83,6 +84,7 @@ return false;
 
 $("#btn-upgrade").click(function(event){
     event.preventDefault();
+    $("#upgrade-outots").val("Waiting for result");
     const ots = hexToBytes($("#upgrade-inots").val());
     const detachedOts = OpenTimestamps.DetachedTimestampFile.deserialize(ots);
     OpenTimestamps.upgrade(detachedOts).then( (changed)=>{
@@ -99,6 +101,7 @@ $("#btn-upgrade").click(function(event){
 
 $("#btn-verify").click(function(event){
     event.preventDefault();
+    $("#verify-log").val("Waiting for result");
     var hashType = $("#verify-type").val();
     var op;
     if (hashType == "SHA1"){
