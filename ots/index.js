@@ -47,8 +47,8 @@ $("#btn-stamp").click(function(event){
     event.preventDefault();
     $("#stamp-ots").val("Waiting for result...");
     var hashType = $("#stamp-type").val();
-    var hash = $("#stamp-hash").val();
-    const hashData = hexToBytes(hash);
+    var hashValue = $("#stamp-hash").val();
+    const hashData = hexToBytes(hashValue);
     var op;
     if (hashType == "SHA1"){
         op = new OpenTimestamps.Ops.OpSHA1();
@@ -61,6 +61,7 @@ $("#btn-stamp").click(function(event){
     OpenTimestamps.stamp(detached).then( () => {
         hexots = bytesToHex(detached.serializeToBytes());
         $("#stamp-ots").val(hexots);
+
         $("#download-hex").val(hexots)
         $("#info-ots").val(hexots);
         $("#upgrade-inots").val(hexots);
@@ -158,6 +159,7 @@ $("#btn-download").click(function(event){
     var text = hex2ascii(hexots);
     var blob = new Blob([text], {type: "octet/stream"});
     saveAs(blob, filename);
+
     $("#info-ots").val(hexots);
     $("#upgrade-inots").val(hexots);
     $("#verify-ots").val(hexots);
