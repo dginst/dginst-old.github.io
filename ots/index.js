@@ -35,8 +35,8 @@ $("#btn-gethash").click(function(event){
 
             $("#verify-type").val(hashType)
             $("#verify-hash").val(hexdigest);
-
-            $("#download-filename").val($("#gethash-file")[0].val()+".ots");
+            var filename = $("#gethash-file").val().replace(/^.*[\\\/]/, '')
+            $("#download-filename").val(filename+".ots");
         };
     })(file);
     reader.readAsArrayBuffer(file);
