@@ -143,6 +143,7 @@ $("#btn-upload").click(function(event){
             var binary = new Uint8Array(e.target.result);
             var hexots = bytesToHex(binary);
             $("#upload-hex").val(hexots);
+            $("#info-ots").val(hexots);
             $("#upgrade-inots").val(hexots);
             $("#verify-ots").val(hexots);
         };
