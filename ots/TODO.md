@@ -1,5 +1,5 @@
 
-- evaluate removal of has value from VERIFY
+- evaluate removal of hash value from VERIFY
 - "serialize to file" checkbok in STAMP, that enable file name field and download file automatically,
    that is merge 2 and 3   
     - add checkbox "save as file"
