@@ -81,14 +81,13 @@ $("#btn-upgrade").click(function(event){
     const ots = hexToBytes($("#upgrade-inots").val());
     const detachedOts = OpenTimestamps.DetachedTimestampFile.deserialize(ots);
     OpenTimestamps.upgrade(detachedOts).then( (changed)=>{
-        var hexots = bytesToHex(detachedOts.serializeToBytes());
-        $("#upgrade-outots").val(hexots);
-        $("#verify-ots").val(hexots);
-
         if(changed === true) {
-            $("#upgrade-log").val("OTS upgraded");
+            $("#upgrade-log").val("Upgraded");
+            var hexots = bytesToHex(detachedOts.serializeToBytes());
+            $("#upgrade-outots").val(hexots);
+            $("#verify-ots").val(hexots);
         } else {
-            $("#upgrade-log").val("OTS not changed");
+            $("#upgrade-log").val("Not upgraded");
         }
     });
     return false;
