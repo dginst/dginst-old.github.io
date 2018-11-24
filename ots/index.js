@@ -1,11 +1,13 @@
 const OpenTimestamps = window.OpenTimestamps;
 
-$("#btn-hash").click(function(event){
+$("#btn-hash").click(function(event) {
     event.preventDefault();
+    $("#hash-output").val("Waiting for result...");
+
     var filename = $("#hash-filename")[0].files[0];
     var hashType = $("#hash-hashType").val();
     if (filename.size > 100 * 1024) {
-        $("#hash-hashValue").val("File too big.. not showing...");
+        $("#hash-output").val("File too big.. not showing...");
         return;
     }
     var reader = new FileReader();
@@ -27,30 +29,25 @@ $("#btn-hash").click(function(event){
             var digest = detached.fileDigest();
             var hashValue = bytesToHex(digest);
 
-            $("#hash-hashValue").val(hashValue);
+            $("#hash-output").val(hashValue);
 
             $("#stamp-hashType").val(hashType)
             $("#stamp-hashValue").val(hashValue);
 
             var file = $("#hash-filename").val().replace(/^.*[\\\/]/, '')
             $("#save-filename").val(file+".ots");
-            $("#load-filename").val(file+".ots");
-
-            $("#verify-hashType").val(hashType)
-            $("#verify-hashValue").val(hashValue);
         };
     })(filename);
     reader.readAsArrayBuffer(filename);
     return false;
 });
 
-$("#btn-stamp").click(function(event){
+$("#btn-stamp").click(function(event) {
     event.preventDefault();
+    $("#stamp-output").val("Waiting for result...");
+
     var hashValue = $("#stamp-hashValue").val();
     var hashType = $("#stamp-hashType").val();
-
-    $("#stamp-ots").val("Waiting for result...");
-
     const hashData = hexToBytes(hashValue);
     var op;
     if (hashType == "SHA1") {
@@ -60,108 +57,22 @@ $("#btn-stamp").click(function(event){
     } else if (hashType == "RIPEMD160") {
         op = new OpenTimestamps.Ops.OpRIPEMD160();
     }
-    const detached = OpenTimestamps.DetachedTimestampFile.fromHash(op, hashData);
-    OpenTimestamps.stamp(detached).then( () => {
-        hexots = bytesToHex(detached.serializeToBytes());
-        $("#stamp-ots").val(hexots);
+    const detachedOriginal = OpenTimestamps.DetachedTimestampFile.fromHash(op, hashData);
+
+    OpenTimestamps.stamp(detachedOriginal).then( () => {
+        hexots = bytesToHex(detachedOriginal.serializeToBytes());
+        $("#stamp-output").val(hexots);
         $("#save-hex").val(hexots)
         $("#info-ots").val(hexots);
-        $("#upgrade-ots-in").val(hexots);
+        $("#upgrade-ots").val(hexots);
         $("#verify-ots").val(hexots);
-    });
-    return false;
-});
-
-
-$("#btn-info").click(function(event){
-    event.preventDefault();
-    var hexots = $("#info-ots").val();
-    const ots = hexToBytes(hexots);
-    const detachedOts = OpenTimestamps.DetachedTimestampFile.deserialize(ots);
-    const info = OpenTimestamps.info(detachedOts);
-    $("#info-info").val(info);
-    $("#upgrade-ots-in").val(hexots);
-    $("#verify-ots").val(hexots);
-return false;
-});
-
-$("#btn-upgrade").click(function(event){
-    event.preventDefault();
-    const ots = hexToBytes($("#upgrade-ots-in").val());
-
-    $("#upgrade-ots-out").val("Waiting for result...");
-
-    const detachedOts = OpenTimestamps.DetachedTimestampFile.deserialize(ots);
-    OpenTimestamps.upgrade(detachedOts).then( (changed)=>{
-        var hexots = bytesToHex(detachedOts.serializeToBytes());        
-        if(changed === true) {
-            $("#upgrade-ots-out").val(hexots);
-            $("#save-hex").val(hexots);
-            $("#verify-ots").val(hexots);
-        } else {
-            $("#upgrade-ots-out").val("Upgrade not available");
-        }
-    });
-    return false;
-});
-
-$("#btn-verify").click(function(event){
-    event.preventDefault();
-    const hash = hexToBytes($("#verify-hashValue").val());
-    var hashType = $("#verify-hashType").val();
-    const ots = hexToBytes($("#verify-ots").val());
-
-    var op;
-    if (hashType == "SHA1") {
-        op = new OpenTimestamps.Ops.OpSHA1();
-    } else if (hashType == "SHA256") {
-        op = new OpenTimestamps.Ops.OpSHA256();
-    } else if (hashType == "RIPEMD160") {
-        op = new OpenTimestamps.Ops.OpRIPEMD160();
-    }
-
-    $("#verify-attestations").val("Waiting for result...");
-
-    const detached = OpenTimestamps.DetachedTimestampFile.fromHash(op, hash);
-    const detachedOts = OpenTimestamps.DetachedTimestampFile.deserialize(ots);
-    OpenTimestamps.verify(detachedOts,detached).then( (verifyResults)=>{
-        if (Object.keys(verifyResults).length === 0){
-            $("#verify-attestations").val("Pending attestation");
-        } else {
-            var text = "";
-            Object.keys(results).map(chain => {
-                var date = moment(results[chain].timestamp * 1000).tz(moment.tz.guess()).format('YYYY-MM-DD z')
-                text += upperFirstLetter(chain) + ' block ' + results[chain].height + ' attests existence as of ' + date + "\n"
-            })
-            $("#verify-attestations").val(text);
-        }
     }).catch( err => {
-        $("#verify-attestations").val("Bad attestation" + err);
+        $("#stamp-output").val("Error: " + err);
     });
     return false;
 });
 
-$("#btn-load").click(function(event){
-    event.preventDefault();
-    var filename = $("#load-filename")[0].files[0];
-    var reader = new FileReader();
-    // Closure to capture the file information.
-    reader.onload = (function(theFile) {
-        return function(e) {
-            var binary = new Uint8Array(e.target.result);
-            var hexots = bytesToHex(binary);
-            $("#load-ots").val(hexots);
-            $("#info-ots").val(hexots);
-            $("#upgrade-ots-in").val(hexots);
-            $("#verify-ots").val(hexots);
-        };
-    })(filename);
-    reader.readAsArrayBuffer(file);
-    return false;
-});
-
-
-$("#btn-save").click(function(event){
+$("#btn-save").click(function(event) {
     event.preventDefault();
     var hexots = $("#save-hex").val();
     var text = hex2ascii(hexots);
@@ -170,9 +81,90 @@ $("#btn-save").click(function(event){
     var filename = $("#save-filename").val();
     saveAs(blob, filename);
 
-    $("#load-filename").val(filename);
     $("#info-ots").val(hexots);
-    $("#upgrade-ots-in").val(hexots);
+    $("#upgrade-ots").val(hexots);
     $("#verify-ots").val(hexots);
 return false;
+});
+
+$("#btn-load").click(function(event) {
+    event.preventDefault();
+    $("#load-output").val("Waiting for result...");
+
+    var filename = $("#load-filename")[0].files[0];
+    var reader = new FileReader();
+    // Closure to capture the file information.
+    reader.onload = (function(theFile) {
+        return function(e) {
+            var binary = new Uint8Array(e.target.result);
+            var hexots = bytesToHex(binary);
+            $("#load-output").val(hexots);
+            $("#info-ots").val(hexots);
+            $("#upgrade-ots").val(hexots);
+            $("#verify-ots").val(hexots);
+        };
+    })(filename);
+    reader.readAsArrayBuffer(filename);
+    return false;
+});
+
+$("#btn-info").click(function(event) {
+    event.preventDefault();
+    $("#info-output").val("Waiting for result...");
+
+    var hexots = $("#info-ots").val();
+    const ots = hexToBytes(hexots);
+    const detachedStamped = OpenTimestamps.DetachedTimestampFile.deserialize(ots);
+    const info = OpenTimestamps.info(detachedStamped);
+    $("#info-output").val(info);
+    $("#upgrade-ots").val(hexots);
+    $("#verify-ots").val(hexots);
+return false;
+});
+
+$("#btn-upgrade").click(function(event) {
+    event.preventDefault();
+    $("#upgrade-output").val("Waiting for result...");
+
+    const ots = hexToBytes($("#upgrade-ots").val());
+    const detachedStamped = OpenTimestamps.DetachedTimestampFile.deserialize(ots);
+
+    OpenTimestamps.upgrade(detachedStamped).then( (changed)=>{
+        var hexots = bytesToHex(detachedStamped.serializeToBytes());        
+        if (changed === true) {
+            $("#upgrade-output").val(hexots);
+            $("#save-hex").val(hexots);
+            $("#verify-ots").val(hexots);
+        } else {
+            $("#upgrade-output").val("No upgrade available");
+        }
+    }).catch( err => {
+        $("#upgrade-output").val("Error: " + err);
+    });
+    return false;
+});
+
+$("#btn-verify").click(function(event) {
+    event.preventDefault();
+    $("#verify-output").val("Waiting for result...");
+
+    const ots = hexToBytes($("#verify-ots").val());
+    const detachedStamped = OpenTimestamps.DetachedTimestampFile.deserialize(ots);
+    const timestamp = detachedStamped.timestamp
+
+    OpenTimestamps.verifyTimestamp(timestamp).then( (verifyResults)=>{
+        if (Object.keys(verifyResults).length === 0) {
+            $("#verify-output").val("Pending attestation");
+        } else {
+            var text = "";
+            Object.keys(results).map(chain => {
+                var date = moment(results[chain].timestamp * 1000).tz(moment.tz.guess()).format('YYYY-MM-DD z')
+                text += upperFirstLetter(chain) + ' block ' + results[chain].height + ' attests existence as of ' + date + "\n"
+            })
+            $("#verify-output").val(text);
+        }
+    }).catch( err => {
+        $("#verify-output").val("Error: " + err);
+    });
+    return false;
 });

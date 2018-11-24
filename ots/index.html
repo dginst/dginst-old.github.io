@@ -41,8 +41,8 @@
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
-                        <label for="hash-hashValue">Hash value</label>
-                        <textarea type="text" id="hash-hashValue" name="hash" class="form-control" placeholder="Result will be displayed here" rows="2" cols="64"></textarea><br>
+                        <label for="hash-output">Hash value</label>
+                        <textarea type="text" id="hash-output" name="hash" class="form-control" placeholder="Result will be displayed here" rows="2" cols="64"></textarea><br>
                     </div>
                 </div>
             </div>
@@ -53,6 +53,7 @@
     <br>
 
     <div class="card">
+        <!–– STAMP might always download the OTS file ––>
         <h3 class="card-header primary-color white-text">2. STAMP: get hexadecimal OTS from hash (internet connectivity required)</h3>
         <div class="card-body">
             <div class="row">
@@ -72,8 +73,8 @@
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
-                        <label for="stamp-ots">Hexadecimal OTS</label>
-                        <textarea type="text" id="stamp-ots" name="stamp-ots" class="form-control" placeholder="Result will be displayed here" rows="8" cols="64"></textarea>
+                        <label for="stamp-output">Hexadecimal OTS</label>
+                        <textarea type="text" id="stamp-output" name="stamp-output" class="form-control" placeholder="Result will be displayed here" rows="8" cols="64"></textarea>
                     </div>
                 </div>
             </div>
@@ -115,13 +116,13 @@
                 <div class="col-md-6">
                     <div class="form-group">
                         <label for="load-filename">OTS file</label>
-                        <input type="file" id="load-filename" class="form-control" accept='*.ots' placeholder="filename.ext.ots"/>
+                        <input type="file" id="load-filename" name="load-filename" class="form-control" accept='*' placeholder="filename.ext.ots"/>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
-                        <label for="load-ots">Hexadecimal OTS</label>
-                        <textarea type="text" id="load-ots" name="load-ots" class="form-control" placeholder="Result will be displayed here" rows="8" cols="64"></textarea>
+                        <label for="load-output">Hexadecimal OTS</label>
+                        <textarea type="text" id="load-output" name="load-output" class="form-control" placeholder="Result will be displayed here" rows="8" cols="64"></textarea>
                     </div>
                 </div>
             </div>
@@ -142,8 +143,8 @@
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
-                        <label for="info-info">Info</label>
-                        <textarea type="text" id="info-info" name="info-info" class="form-control" placeholder="Result will be displayed here" rows="8" cols="64"></textarea>
+                        <label for="info-output">Info</label>
+                        <textarea type="text" id="info-output" name="info-output" class="form-control" placeholder="Result will be displayed here" rows="8" cols="64"></textarea>
                     </div>
                 </div>
             </div>
@@ -160,14 +161,14 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="form-group">
-                        <label for="upgrade-ots-in">Hexadecimal OTS</label>
-                        <textarea type="text" id="upgrade-ots-in" name="upgrade-ots-in" class="form-control" placeholder="Paste input here" rows="8" cols="64"></textarea>
+                        <label for="upgrade-ots">Hexadecimal OTS</label>
+                        <textarea type="text" id="upgrade-ots" name="upgrade-ots" class="form-control" placeholder="Paste input here" rows="8" cols="64"></textarea>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
-                        <label for="upgrade-ots-out">Upgraded hexadecimal OTS (if upgraded, then consider serializing it to file again)</label>
-                        <textarea type="text" id="upgrade-ots-out" name="upgrade-ots-out" class="form-control" placeholder="Result will be displayed here" rows="8" cols="64"></textarea>
+                        <label for="upgrade-output">Upgraded hexadecimal OTS (if upgraded, then consider serializing it to file again)</label>
+                        <textarea type="text" id="upgrade-output" name="upgrade-output" class="form-control" placeholder="Result will be displayed here" rows="8" cols="64"></textarea>
                     </div>
                 </div>
             </div>
@@ -178,23 +179,10 @@
     <br>
 
     <div class="card">
-        <!–– VERIFY should not need the hash value ––>
         <h3 class="card-header primary-color white-text">7. VERIFY: get attestations from hexadecimal OTS (internet connectivity required)</h3>
         <div class="card-body">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="form-group">
-                        <label for="verify-hashValue">Hash value</label>
-                        <textarea type="text" id="verify-hashValue" name="verify-hashValue" class="form-control" placeholder="Paste input here" rows="2" cols="64"></textarea>
-                    </div>
-                    <div class="form-group">
-                        <label for="verify-hashType">Hash function used for the hash value above</label>
-                        <select id="verify-hashType" name="verify-hashType" class="form-control">
-                            <option value="SHA1">SHA1</option>
-                            <option value="SHA256" selected>SHA256</option>
-                            <option value="RIPEMD160">RIPEMD160</option>
-                        </select>
-                    </div>
                     <div class="form-group">
                         <label for="verify-ots">Hexadecimal OTS</label>
                         <textarea type="text" id="verify-ots" name="verify-ots" class="form-control" placeholder="Paste input here" rows="8" cols="64"></textarea>
@@ -202,8 +190,8 @@
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
-                        <label for="verify-attestations">Attestations</label>
-                        <textarea type="text" id="verify-attestations" name="verify-attestations" class="form-control" placeholder="Result will be displayed here" rows="8" cols="64"></textarea>
+                        <label for="verify-output">Attestations</label>
+                        <textarea type="text" id="verify-output" name="verify-output" class="form-control" placeholder="Result will be displayed here" rows="8" cols="64"></textarea>
                     </div>
                 </div>
             </div>
