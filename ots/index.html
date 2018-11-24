@@ -93,7 +93,7 @@
                     </div>
                     <div class="form-group">
                         <label for="stamp-filename">OTS proof filename</label>
-                        <textarea type="text" id="stamp-filename" name="stamp-filename" class="form-control" rows="2" cols="64">filename.ext.ots</textarea>
+                        <textarea type="text" id="stamp-filename" name="stamp-filename" class="form-control" rows="1" cols="64">filename.ext.ots</textarea>
                     </div>
                     <button class="btn btn-primary" id="btn-stamp">STAMP HASH VALUE</button>
                     <div class="form-group">
@@ -170,7 +170,7 @@
                     </div>
                     <div class="form-group">
                         <label for="upgrade-filename">OTS proof filename</label>
-                        <textarea type="text" id="upgrade-filename" name="upgrade-filename" class="form-control" rows="2" cols="64">filename.ext.ots</textarea>
+                        <textarea type="text" id="upgrade-filename" name="upgrade-filename" class="form-control" rows="1" cols="64">filename.ext.ots</textarea>
                     </div>
                     <button class="btn btn-primary" id="btn-upgrade">UPGRADE OTS PROOF</button>
                     <div class="form-group">
@@ -198,7 +198,11 @@
                         </div>
                         <button class="btn btn-primary" id="btn-verify">VERIFY OTS PROOF</button>
                         <div class="form-group">
-                            <label for="verify-output">Attestations</label>
+                            <label for="verify-hashValue">OTS proof is for the hash value</label>
+                            <textarea type="text" id="verify-hashValue" name="verify-hashValue" class="form-control" placeholder="Result will be displayed here" rows="2" cols="64"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="verify-output">Proof attestations</label>
                             <textarea type="text" id="verify-output" name="verify-output" class="form-control" placeholder="Result will be displayed here" rows="8" cols="64"></textarea>
                         </div>
                     </div>

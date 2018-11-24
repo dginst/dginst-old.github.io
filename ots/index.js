@@ -170,8 +170,10 @@ $("#btn-verify").click(function(event) {
 
     const ots = hexToBytes($("#verify-ots").val());
     const detachedStamped = OpenTimestamps.DetachedTimestampFile.deserialize(ots);
+    var hashValue = bytesToHex(detachedStamped.fileDigest());
+    $("#verify-hashValue").val(hashValue);
+    
     const timestamp = detachedStamped.timestamp
-
     OpenTimestamps.verifyTimestamp(timestamp).then( (verifyResults)=>{
         if (Object.keys(verifyResults).length === 0) {
             $("#verify-output").val("Pending attestation");
