@@ -163,7 +163,7 @@ $("#btn-upgrade").click(function(event) {
 
 $("#btn-verify").click(function(event) {
     event.preventDefault();
-    $("#verify-output").val("Waiting for result...");
+    $("#verify-output").val("\n" + "Waiting for result...");
 
     const ots = hexToBytes($("#verify-ots").val());
     const detachedStamped = OpenTimestamps.DetachedTimestampFile.deserialize(ots);
@@ -176,7 +176,7 @@ $("#btn-verify").click(function(event) {
             var text = "";
             Object.keys(results).map(chain => {
                 var date = moment(results[chain].timestamp * 1000).tz(moment.tz.guess()).format('YYYY-MM-DD z')
-                text += upperFirstLetter(chain) + ' block ' + results[chain].height + ' attests existence as of ' + date + "\n"
+                text += upperFirstLetter(chain) + ' block ' + results[chain].height + ' attests existence as of ' + date
             })
             $("#verify-output").val(text);
         }
