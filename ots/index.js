@@ -78,8 +78,8 @@ $("#btn-info").click(function(event){
     var hexots = $("#info-ots").val();
     const ots = hexToBytes(hexots);
     const detachedOts = OpenTimestamps.DetachedTimestampFile.deserialize(ots);
-    const infoResult = OpenTimestamps.info(detachedOts);
-    $("#info-info").val(infoResult);
+    const info = OpenTimestamps.info(detachedOts);
+    $("#info-info").val(info);
     $("#upgrade-ots-in").val(hexots);
     $("#verify-ots").val(hexots);
 return false;
