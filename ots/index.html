@@ -27,12 +27,12 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="form-group">
-                        <label for="gethash-file">Data file (locally processed)</label>
-                        <input type="file" id="gethash-file" class="form-control" accept='*' placeholder="filename.ext"/>
+                        <label for="hash-filename">Data file (locally processed)</label>
+                        <input type="file" id="hash-filename" class="form-control" accept='*' placeholder="filename.ext"/>
                     </div>
                     <div class="form-group">
-                        <label for="gethash-type">Hash function</label>
-                        <select id="gethash-type" class="form-control">
+                        <label for="hash-hashType">Hash function</label>
+                        <select id="hash-hashType" class="form-control">
                             <option value="SHA1">SHA1</option>
                             <option value="SHA256" selected>SHA256</option>
                             <option value="RIPEMD160">RIPEMD160</option>
@@ -41,12 +41,12 @@
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
-                        <label for="gethash-hash">Hash value</label>
-                        <textarea type="text" id="gethash-hash" name="hash" class="form-control" placeholder="Result will be displayed here" rows="2" cols="64"></textarea><br>
+                        <label for="hash-hashValue">Hash value</label>
+                        <textarea type="text" id="hash-hashValue" name="hash" class="form-control" placeholder="Result will be displayed here" rows="2" cols="64"></textarea><br>
                     </div>
                 </div>
             </div>
-            <button class="btn btn-primary" id="btn-gethash">HASH</button>
+            <button class="btn btn-primary" id="btn-hash">HASH</button>
         </div>
     </div>
 
@@ -58,12 +58,12 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="form-group">
-                        <label for="stamp-hash">Hash value</label>
-                        <textarea type="text" id="stamp-hash" name="stamp-hash" class="form-control" placeholder="Paste input here" rows="2" cols="64"></textarea>
+                        <label for="stamp-hashValue">Hash value</label>
+                        <textarea type="text" id="stamp-hashValue" name="stamp-hashValue" class="form-control" placeholder="Paste input here" rows="2" cols="64"></textarea>
                     </div>
                     <div class="form-group">
-                        <label for="stamp-type">Hash function used for the hash value above</label>
-                        <select id="stamp-type" name="stamp-type" class="form-control">
+                        <label for="stamp-hashType">Hash function used for the hash value above</label>
+                        <select id="stamp-hashType" name="stamp-hashType" class="form-control">
                             <option value="SHA1">SHA1</option>
                             <option value="SHA256" selected>SHA256</option>
                             <option value="RIPEMD160">RIPEMD160</option>
@@ -89,20 +89,20 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="form-group">
-                        <label for="download-hex">Hexadecimal OTS</label>
-                        <textarea type="text" id="download-hex" name="download-hex" class="form-control" placeholder="Paste input here" rows="8" cols="64"></textarea>
+                        <label for="save-hex">Hexadecimal OTS</label>
+                        <textarea type="text" id="save-hex" name="save-hex" class="form-control" placeholder="Paste input here" rows="8" cols="64"></textarea>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6">
                     <div class="form-group">
-                        <label for="download-filename">OTS file name</label>
-                        <textarea type="text" id="download-filename" name="download-filename" class="form-control" rows="2" cols="64">filename.ext.ots</textarea>
+                        <label for="save-filename">OTS file name</label>
+                        <textarea type="text" id="save-filename" name="save-filename" class="form-control" rows="2" cols="64">filename.ext.ots</textarea>
                     </div>
                 </div>
             </div>
-            <button class="btn btn-primary" id="btn-download">SAVE AS OTS FILE</button>
+            <button class="btn btn-primary" id="btn-save">SAVE AS OTS FILE</button>
         </div>
     </div>
 
@@ -114,18 +114,18 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="form-group">
-                        <label for="upload-file">OTS file</label>
-                        <input type="file" id="upload-file" class="form-control" accept='*.ots' placeholder="filename.ext.ots"/>
+                        <label for="load-filename">OTS file</label>
+                        <input type="file" id="load-filename" class="form-control" accept='*.ots' placeholder="filename.ext.ots"/>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
-                        <label for="upload-hex">Hexadecimal OTS</label>
-                        <textarea type="text" id="upload-hex" name="upload-hex" class="form-control" placeholder="Result will be displayed here" rows="8" cols="64"></textarea>
+                        <label for="load-ots">Hexadecimal OTS</label>
+                        <textarea type="text" id="load-ots" name="load-ots" class="form-control" placeholder="Result will be displayed here" rows="8" cols="64"></textarea>
                     </div>
                 </div>
             </div>
-            <button class="btn btn-primary" id="btn-upload">LOAD FROM OTS FILE</button>
+            <button class="btn btn-primary" id="btn-load">LOAD FROM OTS FILE</button>
         </div>
     </div>
 
@@ -160,14 +160,14 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="form-group">
-                        <label for="upgrade-inots">Hexadecimal OTS</label>
-                        <textarea type="text" id="upgrade-inots" name="upgrade-inots" class="form-control" placeholder="Paste input here" rows="8" cols="64"></textarea>
+                        <label for="upgrade-ots-in">Hexadecimal OTS</label>
+                        <textarea type="text" id="upgrade-ots-in" name="upgrade-ots-in" class="form-control" placeholder="Paste input here" rows="8" cols="64"></textarea>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
-                        <label for="upgrade-outots">Upgraded hexadecimal OTS (if upgraded, then consider serializing it to file again)</label>
-                        <textarea type="text" id="upgrade-outots" name="upgrade-outots" class="form-control" placeholder="Result will be displayed here" rows="8" cols="64"></textarea>
+                        <label for="upgrade-ots-out">Upgraded hexadecimal OTS (if upgraded, then consider serializing it to file again)</label>
+                        <textarea type="text" id="upgrade-ots-out" name="upgrade-ots-out" class="form-control" placeholder="Result will be displayed here" rows="8" cols="64"></textarea>
                     </div>
                 </div>
             </div>
@@ -184,12 +184,12 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="form-group">
-                        <label for="verify-hash">Hash value</label>
-                        <textarea type="text" id="verify-hash" name="verify-hash" class="form-control" placeholder="Paste input here" rows="2" cols="64"></textarea>
+                        <label for="verify-hashValue">Hash value</label>
+                        <textarea type="text" id="verify-hashValue" name="verify-hashValue" class="form-control" placeholder="Paste input here" rows="2" cols="64"></textarea>
                     </div>
                     <div class="form-group">
-                        <label for="verify-type">Hash function used for the hash value above</label>
-                        <select id="verify-type" name="verify-type" class="form-control">
+                        <label for="verify-hashType">Hash function used for the hash value above</label>
+                        <select id="verify-hashType" name="verify-hashType" class="form-control">
                             <option value="SHA1">SHA1</option>
                             <option value="SHA256" selected>SHA256</option>
                             <option value="RIPEMD160">RIPEMD160</option>
@@ -202,8 +202,8 @@
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
-                        <label for="verify-log">Attestations</label>
-                        <textarea type="text" id="verify-log" name="verify-log" class="form-control" placeholder="Result will be displayed here" rows="8" cols="64"></textarea>
+                        <label for="verify-attestations">Attestations</label>
+                        <textarea type="text" id="verify-attestations" name="verify-attestations" class="form-control" placeholder="Result will be displayed here" rows="8" cols="64"></textarea>
                     </div>
                 </div>
             </div>
