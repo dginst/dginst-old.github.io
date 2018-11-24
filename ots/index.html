@@ -16,18 +16,30 @@
 <body>
 <div class="container">
     <div class="page-header">
-        <h1>OPENTIMESTAMPS: STEP BY STEP TUTORIAL</h1>
-        <p>GitHub project: <a href="https://github.com/fametrano/javascript-opentimestamps-tools">https://github.com/fametrano/javascript-opentimestamps-tools</a></p>
+        <h1>OPENTIMESTAMPS</h1>
+        <h2>A STEP BY STEP TUTORIAL</h2>
+        <p>
+            A timestamp proves that some data existed prior to some point in time.
+            <a href="www.opentimestamps.org">OpenTimestamps</a> (OTS) defines a set of operations for
+            creating provable timestamps and later independently verifying them.
+        </p>
     </div>
 
 
     <div class="card">
-        <h3 class="card-header primary-color white-text">1. HASH: get hash value from data file (no internet connectivity required)</h3>
+        <h3 class="card-header primary-color white-text">HASH</h3>
+        <p>
+            Get the <em>hash value</em> associated to the data file to be stamped.
+        </p>
+        <p>
+            No internet connectivity is required: the hash is calculated inside your browser
+            preserving your privacy.
+        </p>
         <div class="card-body">
             <div class="row">
                 <div class="col-md-6">
                     <div class="form-group">
-                        <label for="hash-filename">Data file (locally processed)</label>
+                        <label for="hash-filename">Data file</label>
                         <input type="file" id="hash-filename" class="form-control" accept='*' placeholder="filename.ext"/>
                     </div>
                     <div class="form-group">
@@ -38,23 +50,32 @@
                             <option value="RIPEMD160">RIPEMD160</option>
                         </select>
                     </div>
-                </div>
-                <div class="col-md-6">
+                    <button class="btn btn-primary" id="btn-hash">HASH FILE</button>
                     <div class="form-group">
                         <label for="hash-output">Hash value</label>
                         <textarea type="text" id="hash-output" name="hash" class="form-control" placeholder="Result will be displayed here" rows="2" cols="64"></textarea><br>
                     </div>
                 </div>
             </div>
-            <button class="btn btn-primary" id="btn-hash">HASH</button>
         </div>
     </div>
 
     <br>
 
     <div class="card">
-        <!–– STAMP might always download the OTS file ––>
-        <h3 class="card-header primary-color white-text">2. STAMP: get hexadecimal OTS from hash (internet connectivity required)</h3>
+        <h3 class="card-header primary-color white-text">TIMESTAMP</h3>
+        <p>
+            Submit the hash value 
+            to the <a href="www.opentimestamps.org">OpenTimestamps</a> calendar servers
+            for attestation of its existance (timestamp)
+            and save the OTS proof as local file.
+        </p>
+        <p>
+            Anyone could realize a timestamp with the permissionless blockchain(s)
+            by paying the transaction fees; conveniently,
+            <a href="www.opentimestamps.org">OpenTimestamps</a> performs
+            this operation for free without any registration or api key.
+        </p>
         <div class="card-body">
             <div class="row">
                 <div class="col-md-6">
@@ -70,133 +91,120 @@
                             <option value="RIPEMD160">RIPEMD160</option>
                         </select>
                     </div>
-                </div>
-                <div class="col-md-6">
                     <div class="form-group">
-                        <label for="stamp-output">Hexadecimal OTS</label>
+                        <label for="stamp-filename">OTS proof filename</label>
+                        <textarea type="text" id="stamp-filename" name="stamp-filename" class="form-control" rows="2" cols="64">filename.ext.ots</textarea>
+                    </div>
+                    <button class="btn btn-primary" id="btn-stamp">STAMP HASH VALUE</button>
+                    <div class="form-group">
+                        <label for="stamp-output">OTS proof</label>
                         <textarea type="text" id="stamp-output" name="stamp-output" class="form-control" placeholder="Result will be displayed here" rows="8" cols="64"></textarea>
                     </div>
                 </div>
             </div>
-            <button class="btn btn-primary" id="btn-stamp">STAMP</button>
         </div>
     </div>
 
     <br>
 
     <div class="card">
-        <h3 class="card-header primary-color white-text">3. SAVE: save hexadecimal OTS as OTS file (no internet connectivity required)</h3>
+        <h3 class="card-header primary-color white-text">LOAD</h3>
+        <p>
+            Load the OTS proof from a local file (no internet connectivity required).
+        </p>
         <div class="card-body">
             <div class="row">
                 <div class="col-md-6">
                     <div class="form-group">
-                        <label for="save-ots">Hexadecimal OTS</label>
-                        <textarea type="text" id="save-ots" name="save-ots" class="form-control" placeholder="Paste input here" rows="8" cols="64"></textarea>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <label for="save-filename">OTS file name</label>
-                        <textarea type="text" id="save-filename" name="save-filename" class="form-control" rows="2" cols="64">filename.ext.ots</textarea>
-                    </div>
-                </div>
-            </div>
-            <button class="btn btn-primary" id="btn-save">SAVE AS OTS FILE</button>
-        </div>
-    </div>
-
-    <br>
-
-    <div class="card">
-        <h3 class="card-header primary-color white-text">4. LOAD: load hexadecimal OTS from OTS file (no internet connectivity required)</h3>
-        <div class="card-body">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <label for="load-filename">OTS file</label>
+                        <label for="load-filename">OTS proof filename</label>
                         <input type="file" id="load-filename" name="load-filename" class="form-control" accept='*' placeholder="filename.ext.ots"/>
                     </div>
-                </div>
-                <div class="col-md-6">
+                    <button class="btn btn-primary" id="btn-load">LOAD OTS PROOF FROM FILE</button>
                     <div class="form-group">
-                        <label for="load-output">Hexadecimal OTS</label>
+                        <label for="load-output">OTS proof</label>
                         <textarea type="text" id="load-output" name="load-output" class="form-control" placeholder="Result will be displayed here" rows="8" cols="64"></textarea>
                     </div>
                 </div>
             </div>
-            <button class="btn btn-primary" id="btn-load">LOAD FROM OTS FILE</button>
         </div>
     </div>
 
     <br>
     <div class="card">
-        <h3 class="card-header primary-color white-text">5. INFO: display info from hexadecimal OTS (no internet connectivity required)</h3>
+        <h3 class="card-header primary-color white-text">INFO</h3>
+        <p>
+            Display the informations included in the OTS proof (no internet connectivity required).
+        </p>
         <div class="card-body">
             <div class="row">
                 <div class="col-md-6">
                     <div class="form-group">
-                        <label for="info-ots">Hexadecimal OTS</label>
+                        <label for="info-ots">OTS proof</label>
                         <textarea type="text" id="info-ots" name="info-ots" class="form-control" placeholder="Paste input here" rows="8" cols="64"></textarea>
                     </div>
-                </div>
-                <div class="col-md-6">
+                    <button class="btn btn-primary" id="btn-info">DISPLAY OTS PROOF INFO</button>
                     <div class="form-group">
                         <label for="info-output">Info</label>
                         <textarea type="text" id="info-output" name="info-output" class="form-control" placeholder="Result will be displayed here" rows="8" cols="64"></textarea>
                     </div>
                 </div>
             </div>
-            <button class="btn btn-primary" id="btn-info">INFO</button>
         </div>
     </div>
 
     <br>
 
     <div class="card">
-        <!–– UPGRADE might download the OTS file if upgraded ––>
-        <h3 class="card-header primary-color white-text">6. UPGRADE: upgrade hexadecimal OTS (internet connectivity required)</h3>
+        <h3 class="card-header primary-color white-text">UPGRADE</h3>
+        <p>
+            Upgrade the OTS proof with the attestations obtained by the
+            <a href="www.opentimestamps.org">OpenTimestamps</a> calendars
+            (internet connectivity is required).
+        </p>
         <div class="card-body">
             <div class="row">
                 <div class="col-md-6">
                     <div class="form-group">
-                        <label for="upgrade-ots">Hexadecimal OTS</label>
+                        <label for="upgrade-ots">OTS proof</label>
                         <textarea type="text" id="upgrade-ots" name="upgrade-ots" class="form-control" placeholder="Paste input here" rows="8" cols="64"></textarea>
                     </div>
-                </div>
-                <div class="col-md-6">
                     <div class="form-group">
-                        <label for="upgrade-output">Upgraded hexadecimal OTS (consider serializing it to file again)</label>
+                        <label for="upgrade-filename">OTS proof filename</label>
+                        <textarea type="text" id="upgrade-filename" name="upgrade-filename" class="form-control" rows="2" cols="64">filename.ext.ots</textarea>
+                    </div>
+                    <button class="btn btn-primary" id="btn-upgrade">UPGRADE OTS PROOF</button>
+                    <div class="form-group">
+                        <label for="upgrade-output">Upgraded OTS proof</label>
                         <textarea type="text" id="upgrade-output" name="upgrade-output" class="form-control" placeholder="Result will be displayed here" rows="8" cols="64"></textarea>
                     </div>
                 </div>
             </div>
-            <button class="btn btn-primary" id="btn-upgrade">UPGRADE</button>
         </div>
     </div>
 
     <br>
 
     <div class="card">
-        <h3 class="card-header primary-color white-text">7. VERIFY: get attestations from hexadecimal OTS (internet connectivity required)</h3>
+        <h3 class="card-header primary-color white-text">VERIFY</h3>
+        <p>
+            Verify the attestations included in the OTS proof (internet connectivity is required).
+        </p>
         <div class="card-body">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <label for="verify-ots">Hexadecimal OTS</label>
-                        <textarea type="text" id="verify-ots" name="verify-ots" class="form-control" placeholder="Paste input here" rows="8" cols="64"></textarea>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <label for="verify-output">Attestations</label>
-                        <textarea type="text" id="verify-output" name="verify-output" class="form-control" placeholder="Result will be displayed here" rows="8" cols="64"></textarea>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="verify-ots">OTS proof</label>
+                            <textarea type="text" id="verify-ots" name="verify-ots" class="form-control" placeholder="Paste input here" rows="8" cols="64"></textarea>
+                        </div>
+                        <button class="btn btn-primary" id="btn-verify">VERIFY OTS PROOF</button>
+                        <div class="form-group">
+                            <label for="verify-output">Attestations</label>
+                            <textarea type="text" id="verify-output" name="verify-output" class="form-control" placeholder="Result will be displayed here" rows="8" cols="64"></textarea>
+                        </div>
                     </div>
                 </div>
             </div>
-            <button class="btn btn-primary" id="btn-verify">VERIFY</button>
-        </div>
+    
     </div>
 
     <br>
