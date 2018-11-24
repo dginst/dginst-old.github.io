@@ -166,7 +166,7 @@ $("#btn-upgrade").click(function(event) {
 
 $("#btn-verify").click(function(event) {
     event.preventDefault();
-    $("#verify-output").val("Waiting for result...");
+    $("#verify-output").val("...\n" + "Waiting for result...");
 
     const ots = hexToBytes($("#verify-ots").val());
     const detachedStamped = OpenTimestamps.DetachedTimestampFile.deserialize(ots);
