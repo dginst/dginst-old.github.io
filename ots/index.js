@@ -62,10 +62,15 @@ $("#btn-stamp").click(function(event) {
     OpenTimestamps.stamp(detachedOriginal).then( () => {
         hexots = bytesToHex(detachedOriginal.serializeToBytes());
         $("#stamp-output").val(hexots);
-        $("#save-hex").val(hexots)
+
+        $("#save-ots").val(hexots)
+        $("#save-output").val("Result will be displayed here")
         $("#info-ots").val(hexots);
+        $("#info-output").val("Result will be displayed here")
         $("#upgrade-ots").val(hexots);
+        $("#upgrade-output").val("Result will be displayed here")
         $("#verify-ots").val(hexots);
+        $("#verify-output").val("Result will be displayed here")
     }).catch( err => {
         $("#stamp-output").val("Error: " + err);
     });
@@ -74,7 +79,7 @@ $("#btn-stamp").click(function(event) {
 
 $("#btn-save").click(function(event) {
     event.preventDefault();
-    var hexots = $("#save-hex").val();
+    var hexots = $("#save-ots").val();
     var text = hex2ascii(hexots);
     var blob = new Blob([text], {type: "octet/stream"});
 
@@ -82,8 +87,11 @@ $("#btn-save").click(function(event) {
     saveAs(blob, filename);
 
     $("#info-ots").val(hexots);
+    $("#info-output").val("Result will be displayed here")
     $("#upgrade-ots").val(hexots);
+    $("#upgrade-output").val("Result will be displayed here")
     $("#verify-ots").val(hexots);
+    $("#verify-output").val("Result will be displayed here")
 return false;
 });
 
@@ -99,9 +107,13 @@ $("#btn-load").click(function(event) {
             var binary = new Uint8Array(e.target.result);
             var hexots = bytesToHex(binary);
             $("#load-output").val(hexots);
+
             $("#info-ots").val(hexots);
+            $("#info-output").val("Result will be displayed here")
             $("#upgrade-ots").val(hexots);
+            $("#upgrade-output").val("Result will be displayed here")
             $("#verify-ots").val(hexots);
+            $("#verify-output").val("Result will be displayed here")
         };
     })(filename);
     reader.readAsArrayBuffer(filename);
@@ -117,9 +129,13 @@ $("#btn-info").click(function(event) {
     const detachedStamped = OpenTimestamps.DetachedTimestampFile.deserialize(ots);
     const info = OpenTimestamps.info(detachedStamped);
     $("#info-output").val(info);
+
     $("#upgrade-ots").val(hexots);
+    $("#upgrade-output").val("Result will be displayed here")
     $("#verify-ots").val(hexots);
-return false;
+    $("#verify-output").val("Result will be displayed here")
+
+    return false;
 });
 
 $("#btn-upgrade").click(function(event) {
@@ -133,8 +149,9 @@ $("#btn-upgrade").click(function(event) {
         var hexots = bytesToHex(detachedStamped.serializeToBytes());        
         if (changed === true) {
             $("#upgrade-output").val(hexots);
-            $("#save-hex").val(hexots);
+            $("#save-ots").val(hexots);
             $("#verify-ots").val(hexots);
+            $("#verify-output").val("Result will be displayed here")
         } else {
             $("#upgrade-output").val("No upgrade available");
         }
