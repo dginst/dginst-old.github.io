@@ -13,7 +13,7 @@ web: <https://www.digitalgoldinstitute.org>
 email contact form: <https://bit.ly/contact-dgi>  
 PEC: [dginst@pec.it](mailto:dginst@pec.it)
 
-Bank: Credito Bergamasco  
+Bank: BANCO BPM  
 SWIFT Code: BAPPIT21AH8  
 IBAN Code: IT72Y0503433730000000015343
 
