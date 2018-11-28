@@ -46,6 +46,7 @@ $("#btn-hash").click(function(event) {
 });
 
 $("#btn-stamp").click(function(event) {
+    // list calendars the hash as been submitted to
     event.preventDefault();
     $("#stamp-output").val("Waiting for result...");
 
@@ -168,6 +169,8 @@ $("#btn-upgrade").click(function(event) {
 });
 
 $("#btn-verify").click(function(event) {
+    // optional upgrade
+    // multiple attestations?
     event.preventDefault();
     $("#verify-output").val("Waiting for result...");
 
@@ -197,8 +200,9 @@ $("#btn-verify").click(function(event) {
             var blob = new Blob([timestampBytes], {type: "octet/stream"});
             saveAs(blob, filename);
         } else {
-            // unchanged proof
+            outputText += "No proof upgraded available"
         }
+        $("#verify-output").val(outputText + "\nVerifing attestations...");
         return OpenTimestamps.verifyTimestamp(detachedStamped.timestamp)
     }).then( (results)=>{
         if (Object.keys(results).length === 0) {
