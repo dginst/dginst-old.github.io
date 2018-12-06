@@ -20,27 +20,27 @@ permalink: /team/
 
 # Current students
 
-* Andrea Brandoli  
-  Thesis: <https://github.com/AndreaBrandoli90/MasterThesis>  
-  GitHub: [AndreaBrandoli90](https://github.com/AndreaBrandoli90)
-* Alessandro Miola  
-  Thesis: <https://github.com/AlessandroMiola/Thesis>   
-  GitHub: [AlessandroMiola](https://github.com/AlessandroMiola)
-* Giona Soldati  
-  Thesis: <https://github.com/gionasoldati/thesis>  
-  GitHub: [gionasoldati](https://github.com/gionasoldati)
-* Samuele Vianello  
-  Thesis: <https://github.com/SamueleVianello/MasterThesis>  
-  GitHub: [SamueleVianello](https://github.com/SamueleVianello)
+1. Andrea Brandoli  
+   Thesis: <https://github.com/AndreaBrandoli90/MasterThesis>  
+   GitHub: [AndreaBrandoli90](https://github.com/AndreaBrandoli90)
+2. Alessandro Miola  
+   Thesis: <https://github.com/AlessandroMiola/Thesis>   
+   GitHub: [AlessandroMiola](https://github.com/AlessandroMiola)
+3. Giona Soldati  
+   Thesis: <https://github.com/gionasoldati/thesis>  
+   GitHub: [gionasoldati](https://github.com/gionasoldati)
+4. Samuele Vianello  
+   Thesis: <https://github.com/SamueleVianello/MasterThesis>  
+   GitHub: [SamueleVianello](https://github.com/SamueleVianello)
 
 # Alumni
 
-* Leonardo Comandini  
-  Thesis: _Sign-to-contract: how to achieve digital notarization with zero marginal cost_ ([pdf](https://www.politesi.polimi.it/bitstream/10589/140124/1/2018_04_Comandini.pdf), [source](https://github.com/LeoComandini/Thesis))  
-  GitHub: [LeoComandini](https://github.com/LeoComandini)
-* Daniele Fornaro  
-  Thesis: _Elliptic Curve Hierarchical Deterministic Private Key Sequences: Bitcoin Standards and Best Practices_ ([pdf](https://www.politesi.polimi.it/bitstream/10589/140112/1/2018_04_Fornaro.pdf), [source](https://github.com/danielefornaro/Tesi))  
-  GitHub: [danielefornaro](https://github.com/danielefornaro)
-* Chiara Lelli  
-  Thesis: _Schnorr signature: additivity and multisignature_ ([source](https://github.com/clelli/Schnorr))
-  GitHub: [clelli](https://github.com/clelli)
+1. Leonardo Comandini  
+   Thesis: _Sign-to-contract: how to achieve digital notarization with zero marginal cost_ ([pdf](https://www.politesi.polimi.it/bitstream/10589/140124/1/2018_04_Comandini.pdf), [source](https://github.com/LeoComandini/Thesis))  
+   GitHub: [LeoComandini](https://github.com/LeoComandini)
+2. Daniele Fornaro  
+   Thesis: _Elliptic Curve Hierarchical Deterministic Private Key Sequences: Bitcoin Standards and Best Practices_ ([pdf](https://www.politesi.polimi.it/bitstream/10589/140112/1/2018_04_Fornaro.pdf), [source](https://github.com/danielefornaro/Tesi))  
+   GitHub: [danielefornaro](https://github.com/danielefornaro)
+3. Chiara Lelli  
+   Thesis: _Schnorr signature: additivity and multisignature_ ([source](https://github.com/clelli/Schnorr))
+   GitHub: [clelli](https://github.com/clelli)
