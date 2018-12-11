@@ -4,9 +4,11 @@ title: Training
 permalink: /training_it/
 ---
 
-DGI propone diversi moduli/workshop sui temi bitcoin, blockchain, distributed ledger, smart contracts, ecc.
+DGI propone diversi moduli/workshop sui temi bitcoin, blockchain, distributed ledger, smart contracts, ecc. L'offerta formativa può essere costruita su misura per le esigenze del committente ed erogata _on-site_ o presso nostri locali. Potete [contattarci](https://bit.ly/contact-dgi) per esplorare assieme le opportunità.
 
-Per ogni modulo sono indicate le propedeuticità e l'audience ideale. Ogni modulo può essere fruito in versione estesa (150m) o compatta (90m): due moduli sostanzialmente riempiono una intensa mezza giornata, tre moduli riempiono una giornata intera.
+Di seguito c'è una presentazione orientativa di argomenti, materiali, tempi, destinatari e modalità di formazione.
+
+Per ogni modulo formativo sono indicate le propedeuticità e l'audience ideale. Ogni modulo può essere fruito in versione estesa (150m) o compatta (90m): due moduli sostanzialmente riempiono una intensa mezza giornata, tre moduli riempiono una giornata intera.
 
 I moduli 1, 8, 9 sono fruibili da tutti: manager c-level, manager funzionali, sviluppatori, ricercatori, appassionati di tecnologia.
 
@@ -16,7 +18,7 @@ I moduli 3, 4, e 5 sono tecnici, più orientati quindi verso gli sviluppatori.
 
 Il modulo 6 introduce il concetto di lab sperimentale e può essere fruito come unità a se stante o maglio se magari scompattandone i contenuti di esercitazione all'interno degli altri moduli. Rende necessario che i partecipanti abbiano un loro laptop.
 
-Il modulo 3 di crittografia è estremamente tecnico e rivolto ad una audience di ingegneri, matematici, fisici, informatici; il modulo 7 è un approfondimento sulle tecniche di frontiera interessante solo per loro. Sono moduli  difficili per un'audience generica che non sia ben disposta verso la matematica e la logica.
+Il modulo 3 di crittografia è estremamente tecnico e rivolto ad una audience di ingegneri, matematici, fisici, informatici; il modulo 7 è un approfondimento sulle tecniche di frontiera interessante solo per loro. Sono moduli difficili per un'audience generica che non sia ben disposta verso la matematica e la logica.
 
 Una giornata generalista può includere i moduli 1, 8 e 9 (magari anche il modulo 2), mentre un mix di 2, 3, 4, 5 può essere una giornata tecnica. La giornata generalista è prerequisito per quella tecnica.
 
