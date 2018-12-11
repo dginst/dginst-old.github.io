@@ -22,7 +22,7 @@ In particolare il Digital Gold Institute avrà come ambiti di attenzione e di ri
 
 L'istituto è diretto da [Ferdinando Ametrano](https://www.ametrano.net/about/), a cui si affianca come un giovane partner che sarà annunciato a gennaio e che coordina il lavoro del [team](/team/). L’istituto è sostenuto da partnership qualificate che saranno annunciate a gennaio. Ai nostri partner offriamo come pacchetto base:
 
-- una giornata al trimestre, da utilizzare come si preferisce (formazione, consulenza, supervisione progettuale, dialogo istituzionale, ecc.)
+- una giornata al trimestre, da utilizzare come si preferisce ([formazione](/training_it/), consulenza, supervisione progettuale, dialogo istituzionale, ecc.)
 - l'accesso gratuito per due persone a tutte le iniziative formative (ce ne sarà almeno una l'anno di standing a Milano)
 - un report trimestrale sull'ecosistema bitcoin: tecnologia, mercati e regolamentazione
 - il logo dello sponsor sul sito dell'istituto ed in tutte le iniziative pubbliche, brochure, ecc.
