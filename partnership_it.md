@@ -12,13 +12,13 @@ Digital Gold Institute ha una concezione centrifuga: un luogo da cui si passa pe
 
 In particolare il Digital Gold Institute avrà come ambiti di attenzione e di ricerca:
 
-- crittografia (Schnorr signature, confidential transactions, MAST, ecc.)
-- scaling solutions: (lightning network, simplicity, ec..)
+- cryptography (Schnorr signature, confidential transactions, MAST, etc.)
+- scaling solutions: (lightning network, simplicity, etc.)
 - transactions: advanced wallet design, fee estimation, etc.
 - security: digital asset safe custody techniques and processes, etc.
-- monetary engineering: stablecoin and signorage shares
-- notarization: application for insurance, digital ID, etc
-- blockchain analysis and forensic: BlockSci, Hammersbald
+- monetary engineering: stablecoin, signorage shares, etc.
+- notarization: application for insurance, digital ID, etc.
+- blockchain analysis and forensic: BlockSci, Hammersbald, etc.
 
 L'istituto è diretto da [Ferdinando Ametrano](https://www.ametrano.net/about/), a cui si affianca come un giovane partner che sarà annunciato a gennaio e che coordina il lavoro del [team](/team/). L’istituto è sostenuto da partnership qualificate che saranno annunciate a gennaio. Ai nostri partner offriamo come pacchetto base:
 
