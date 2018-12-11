@@ -4,6 +4,8 @@ title: Training
 permalink: /training_it/
 ---
 
+# Offerta formativa
+
 DGI propone diversi moduli/workshop sui temi bitcoin, blockchain, _distributed ledger_, _smart contracts_, ecc. L'offerta formativa può essere costruita su misura per le esigenze del committente ed erogata _on-site_ o presso nostri locali. Potete [contattarci](https://bit.ly/contact-dgi) per esplorare assieme le opportunità.
 
 Di seguito c'è una presentazione orientativa di argomenti, materiali, tempi, destinatari e modalità di formazione.
