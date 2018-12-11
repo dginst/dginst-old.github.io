@@ -109,7 +109,8 @@ Il training pu√≤ essere svolto in inglese o italiano, il materiale distribuito √
 
 9. Bitcoin, Blockchain, and Distributed Ledger Technology: Hype or Reality?  
    prerequisiti: modulo 1  
-   audience: c-level, manager,  researchers, technologists, developers    - Blockchain Without Bitcoin
+   audience: c-level, manager,  researchers, technologists, developers
+    - Blockchain Without Bitcoin
     - Finance and Blockchain
     - Timestamping, Notarization, and Anchoring
     - Smart Contracts
