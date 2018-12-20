@@ -44,7 +44,7 @@ otherwise the block would be deemed invalid by the network and rejected,
 removing it (and the included coinbase reward) from the transaction history:
 ultimately, the winning miner would have just wasted his work.
 
-Without an intrinsic native digital asset providing 
+Without an intrinsic native digital asset providing
 seigniorage revenues, a blockchain would need to select and appoint its back-office
 operators, ultimately resorting to central governance.
 If this is the case, then why use a blockchain,
