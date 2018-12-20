@@ -75,11 +75,9 @@ as the blockchain it uses, with the bitcoin one being the most tamper-resistant.
 Moreover, please note that notarization cannot guarantee validity,
 correctness, or accuracy of the content being time-stamped.
 
-A single transaction can timestamp an unlimited number of documents (aggregated
-in a Merkle tree, whose root is actually time-stamped):
-the process has been standardized as [OpenTimestamps](https://www.opentimestamps.org/)
-to allow for third party auditability and it is suitable for regulatory
-prescriptions.
+A single blockchain transaction can timestamp an unlimited number of documents, aggregating
+them in a Merkle tree, whose root is then actually time-stamped.
+The process has been standardized as [OpenTimestamps](https://www.opentimestamps.org/), an open vendor and blockchain independent format that allows for third party auditability and it is suitable for regulatory prescriptions.
 
 What jewelry is for gold, notarization is for bitcoin:
 not essential, but effective at leveraging its beauty.
