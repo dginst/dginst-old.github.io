@@ -70,13 +70,18 @@ on the blockchain implicitly provides time-stamping, proving the data
 file existence at that moment in time in that specific status.
 
 Here, the blockchain is used as notary service, ensuring that documents
-cannot be backdated. Please note that notarization cannot guarantee validity,
+cannot be backdated. Notarization is blockchain-agnostic, anyway it is as reliable
+as the blockchain it uses, with the bitcoin one being the most tamper-resistant.
+Moreover, please note that notarization cannot guarantee validity,
 correctness, or accuracy of the content being time-stamped.
 
-A single transaction can timestamp an unlimited number of documents:
+A single transaction can timestamp an unlimited number of documents (aggregated
+in a Merkle tree, whose root is actually time-stamped):
 the process has been standardized as [OpenTimestamps](https://www.opentimestamps.org/)
 to allow for third party auditability and it is suitable for regulatory
-prescriptions. What jewelry is for gold, notarization is for bitcoin:
+prescriptions.
+
+What jewelry is for gold, notarization is for bitcoin:
 not essential, but effective at leveraging its beauty.
 
 # 4. Financial Services for Crypto-assets
