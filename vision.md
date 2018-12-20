@@ -87,6 +87,6 @@ not essential, but effective at leveraging its beauty.
 Even if one is only interested in genuine technologic applications of blockchain,
 the most promising field is the development of
 tools and practices for financial services involving crypto-assets,
-primarily custody for institutionals and high net worth individuals.
+primarily custody for institutional investors and high net worth individuals.
 
 _Digital gold is what matters._
