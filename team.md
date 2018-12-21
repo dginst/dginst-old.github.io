@@ -39,8 +39,8 @@ permalink: /team/
    Thesis: _Elliptic Curve Hierarchical Deterministic Private Key Sequences: Bitcoin Standards and Best Practices_ ([pdf](https://www.politesi.polimi.it/bitstream/10589/140112/1/2018_04_Fornaro.pdf), [source](https://github.com/danielefornaro/Tesi))  
    GitHub: [danielefornaro](https://github.com/danielefornaro)
 3. Chiara Lelli  
-   Thesis: _Schnorr signature: additivity and multisignature_ ([source](https://github.com/clelli/Schnorr))
+   Thesis: _Schnorr signature: additivity and multisignature_ ([source](https://github.com/clelli/Schnorr))<br/>
    GitHub: [clelli](https://github.com/clelli)
 4. Giona Soldati  
-   Thesis: _An Advanced Signature Scheme: Schnorr Algorithm and its Benefits to the Bitcoin Ecosystem_ ([pdf](https://github.com/gionasoldati/thesis/blob/master/main.pdf), [source](https://github.com/gionasoldati/thesis), [presentation](https://github.com/gionasoldati/thesis/blob/master/Presentation/main.pdf))
+   Thesis: _An Advanced Signature Scheme: Schnorr Algorithm and its Benefits to the Bitcoin Ecosystem_ ([pdf](https://github.com/gionasoldati/thesis/blob/master/main.pdf), [source](https://github.com/gionasoldati/thesis), [presentation](https://github.com/gionasoldati/thesis/blob/master/Presentation/main.pdf))<br/>
    GitHub: [gionasoldati](https://github.com/gionasoldati)
