@@ -26,7 +26,7 @@ permalink: /team/
 2. Alessandro Miola  
    Thesis: <https://github.com/AlessandroMiola/Thesis>   
    GitHub: [AlessandroMiola](https://github.com/AlessandroMiola)
-4. Samuele Vianello  
+3. Samuele Vianello  
    Thesis: <https://github.com/SamueleVianello/MasterThesis>  
    GitHub: [SamueleVianello](https://github.com/SamueleVianello)
 
