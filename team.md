@@ -26,9 +26,6 @@ permalink: /team/
 2. Alessandro Miola  
    Thesis: <https://github.com/AlessandroMiola/Thesis>   
    GitHub: [AlessandroMiola](https://github.com/AlessandroMiola)
-3. Giona Soldati  
-   Thesis: <https://github.com/gionasoldati/thesis>  
-   GitHub: [gionasoldati](https://github.com/gionasoldati)
 4. Samuele Vianello  
    Thesis: <https://github.com/SamueleVianello/MasterThesis>  
    GitHub: [SamueleVianello](https://github.com/SamueleVianello)
@@ -44,3 +41,6 @@ permalink: /team/
 3. Chiara Lelli  
    Thesis: _Schnorr signature: additivity and multisignature_ ([source](https://github.com/clelli/Schnorr))
    GitHub: [clelli](https://github.com/clelli)
+4. Giona Soldati  
+   Thesis: _An Advanced Signature Scheme: Schnorr Algorithm and its Benefits to the Bitcoin Ecosystem_ ([pdf](https://github.com/gionasoldati/thesis/blob/master/main.pdf), [source](https://github.com/gionasoldati/thesis), [presentation](https://github.com/gionasoldati/thesis/blob/master/Presentation/main.pdf))
+   GitHub: [gionasoldati](https://github.com/gionasoldati)
