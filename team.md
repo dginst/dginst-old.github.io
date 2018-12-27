@@ -6,7 +6,7 @@ permalink: /team/
 
 # Directors
 
-* Ferdinando M. Ametrano, Executive Director
+* Ferdinando M. Ametrano, Executive Director ([fametrano](https://github.com/fametrano))
   * Short bio: [Bitcoin and Blockchain Technology](https://www.ametrano.net/bbt/) at
                Milano Bicocca, and Politecnico di Milano.
                [Hayek Money](https://ssrn.com/abstract=2425270) promoter,
@@ -15,32 +15,25 @@ permalink: /team/
                Adjunct Professor at Milano Bicocca.
                Ex-physicist, Springsteen fan, husband, father of three.
   * Personal web site: <https://www.ametrano.net/about/>
-  * GitHub: [fametrano](https://github.com/fametrano)
 * to be announced shortly, Chief Operating Officer
 
 # Current students
 
-1. Andrea Brandoli  
-   Thesis: <https://github.com/AndreaBrandoli90/MasterThesis>  
-   GitHub: [AndreaBrandoli90](https://github.com/AndreaBrandoli90)
-2. Alessandro Miola  
-   Thesis: <https://github.com/AlessandroMiola/Thesis>   
-   GitHub: [AlessandroMiola](https://github.com/AlessandroMiola)
-3. Samuele Vianello  
-   Thesis: <https://github.com/SamueleVianello/MasterThesis>  
-   GitHub: [SamueleVianello](https://github.com/SamueleVianello)
+* Andrea Brandoli ([AndreaBrandoli90](https://github.com/AndreaBrandoli90))  
+  Thesis: <https://github.com/AndreaBrandoli90/MasterThesis>
+* Alessandro Miola ([AlessandroMiola](https://github.com/AlessandroMiola))  
+  Thesis: <https://github.com/AlessandroMiola/Thesis>
+* Samuele Vianello ([SamueleVianello](https://github.com/SamueleVianello))  
+  Thesis: <https://github.com/SamueleVianello/MasterThesis>
 
 # Alumni
 
-1. Leonardo Comandini  
-   Thesis: _Sign-to-contract: how to achieve digital notarization with zero marginal cost_ ([pdf](https://www.politesi.polimi.it/bitstream/10589/140124/1/2018_04_Comandini.pdf), [source](https://github.com/LeoComandini/Thesis))  
-   GitHub: [LeoComandini](https://github.com/LeoComandini)
-2. Daniele Fornaro  
-   Thesis: _Elliptic Curve Hierarchical Deterministic Private Key Sequences: Bitcoin Standards and Best Practices_ ([pdf](https://www.politesi.polimi.it/bitstream/10589/140112/1/2018_04_Fornaro.pdf), [source](https://github.com/danielefornaro/Tesi))  
-   GitHub: [danielefornaro](https://github.com/danielefornaro)
-3. Chiara Lelli  
-   Thesis: _Schnorr signature: additivity and multisignature_ ([source](https://github.com/clelli/Schnorr))<br/>
-   GitHub: [clelli](https://github.com/clelli)
-4. Giona Soldati  
-   Thesis: _An Advanced Signature Scheme: Schnorr Algorithm and its Benefits to the Bitcoin Ecosystem_ ([pdf](https://github.com/gionasoldati/thesis/blob/master/main.pdf), [source](https://github.com/gionasoldati/thesis), [presentation](https://github.com/gionasoldati/thesis/blob/master/Presentation/main.pdf))<br/>
-   GitHub: [gionasoldati](https://github.com/gionasoldati)
+* Giona Soldati ([gionasoldati](https://github.com/gionasoldati))  
+  Thesis: _An Advanced Signature Scheme: Schnorr Algorithm and its Benefits to the Bitcoin Ecosystem_ ([pdf](https://github.com/gionasoldati/thesis/blob/master/main.pdf), [source](https://github.com/gionasoldati/thesis))  
+  Slides: [pdf](https://github.com/gionasoldati/thesis/blob/master/Presentation/main.pdf), [source](https://github.com/gionasoldati/thesis/tree/master/Presentation)
+* Leonardo Comandini ([LeoComandini](https://github.com/LeoComandini))  
+  Thesis: _Sign-to-contract: how to achieve digital notarization with zero marginal cost_ ([pdf](https://www.politesi.polimi.it/bitstream/10589/140124/1/2018_04_Comandini.pdf), [source](https://github.com/LeoComandini/Thesis))
+* Daniele Fornaro ([danielefornaro](https://github.com/danielefornaro))  
+  Thesis: _Elliptic Curve Hierarchical Deterministic Private Key Sequences: Bitcoin Standards and Best Practices_ ([pdf](https://www.politesi.polimi.it/bitstream/10589/140112/1/2018_04_Fornaro.pdf), [source](https://github.com/danielefornaro/Tesi))
+* Chiara Lelli ([clelli](https://github.com/clelli))  
+  Thesis: _Schnorr signature: additivity and multisignature_ ([pdf](https://github.com/clelli/Schnorr/blob/master/tesi.pdf), [source](https://github.com/clelli/Schnorr))
