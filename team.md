@@ -22,7 +22,8 @@ permalink: /team/
 * Andrea Brandoli ([AndreaBrandoli90](https://github.com/AndreaBrandoli90))  
   Thesis: <https://github.com/AndreaBrandoli90/MasterThesis>
 * Alessandro Miola ([AlessandroMiola](https://github.com/AlessandroMiola))  
-  Thesis: <https://github.com/AlessandroMiola/Thesis>
+  Thesis: _Addressing Privacy and Fungibility Issues inb Bitcoin: Confidential Transactions_ ([pdf](https://github.com/AlessandroMiola/Thesis/blob/master/Thesis.pdf), [source](https://github.com/AlessandroMiola/Thesis))  
+  Slides:
 * Samuele Vianello ([SamueleVianello](https://github.com/SamueleVianello))  
   Thesis: <https://github.com/SamueleVianello/MasterThesis>
 
