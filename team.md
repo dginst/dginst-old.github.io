@@ -21,9 +21,6 @@ permalink: /team/
 
 * Andrea Brandoli ([AndreaBrandoli90](https://github.com/AndreaBrandoli90))  
   Thesis: <https://github.com/AndreaBrandoli90/MasterThesis>
-* Alessandro Miola ([AlessandroMiola](https://github.com/AlessandroMiola))  
-  Thesis: _Addressing Privacy and Fungibility Issues inb Bitcoin: Confidential Transactions_ ([pdf](https://github.com/AlessandroMiola/Thesis/blob/master/Thesis.pdf), [source](https://github.com/AlessandroMiola/Thesis))  
-  Slides:
 * Samuele Vianello ([SamueleVianello](https://github.com/SamueleVianello))  
   Thesis: <https://github.com/SamueleVianello/MasterThesis>
 
@@ -32,6 +29,9 @@ permalink: /team/
 * Giona Soldati ([gionasoldati](https://github.com/gionasoldati))  
   Thesis: _An Advanced Signature Scheme: Schnorr Algorithm and its Benefits to the Bitcoin Ecosystem_ ([pdf](https://github.com/gionasoldati/thesis/blob/master/main.pdf), [source](https://github.com/gionasoldati/thesis))  
   Slides: [pdf](https://github.com/gionasoldati/thesis/blob/master/Presentation/main.pdf), [source](https://github.com/gionasoldati/thesis/tree/master/Presentation)
+* Alessandro Miola ([AlessandroMiola](https://github.com/AlessandroMiola))  
+  Thesis: _Addressing Privacy and Fungibility Issues in Bitcoin: Confidential Transactions_ ([pdf](https://github.com/AlessandroMiola/Thesis/blob/master/Thesis.pdf), [source](https://github.com/AlessandroMiola/Thesis))  
+  Slides: [pdf](https://github.com/AlessandroMiola/Thesis/blob/master/Slides/Presentation.pdf), [source](https://github.com/AlessandroMiola/Thesis/tree/master/Slides)
 * Leonardo Comandini ([LeoComandini](https://github.com/LeoComandini))  
   Thesis: _Sign-to-contract: how to achieve digital notarization with zero marginal cost_ ([pdf](https://www.politesi.polimi.it/bitstream/10589/140124/1/2018_04_Comandini.pdf), [source](https://github.com/LeoComandini/Thesis))
 * Daniele Fornaro ([danielefornaro](https://github.com/danielefornaro))  
