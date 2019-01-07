@@ -17,4 +17,4 @@ Bank: BANCO BPM
 SWIFT Code: BAPPIT21AH8  
 IBAN Code: IT72Y0503433730000000015343
 
-[![SVG logo](/images/dgi-logo.svg)](/images/logo/dgi-logo.svg)  
+[![SVG logo](/images/dgi-logo.svg)](/images/dgi-logo.svg)  
