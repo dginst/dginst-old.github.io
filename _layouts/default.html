@@ -10,6 +10,8 @@
     <![endif]-->
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="stylesheet" href="/_sass/flexslider.css">
+    
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -85,5 +87,15 @@
     </div>
 
     {% include analytics.html %}
-  </body>
+
+  <!-- Flexslider Scripts
+  =================================================-->
+    <!-- Google CDN Hosted jQuery  -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <!-- Flexslider Library  -->
+    <script src="/_js/jquery.flexslider-min.js"></script>
+    <!-- Initialisation Code  -->
+    <script src="/_js/app.js"></script>
+
+</body>
 </html>
