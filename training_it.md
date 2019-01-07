@@ -6,7 +6,13 @@ permalink: /training_it/
 
 # Offerta formativa
 
-DGI propone diversi moduli/workshop sui temi bitcoin, blockchain, _distributed ledger_, _smart contracts_, ecc. L'offerta formativa può essere costruita su misura per le esigenze del committente ed erogata _on-site_ o in nostre _location_. Potete [contattarci](https://bit.ly/contact-dgi) per esplorare assieme le opportunità.
+DGI propone diversi moduli/workshop sui temi bitcoin, blockchain, _distributed ledger_, _smart contracts_, ecc.
+
+L'offerta formativa è basata sul corso [_Bitcoin and Blockchain Technology_](http://www.ametrano.net/bbt) del Politecnico di Milano e Milano Bicocca; può essere ovviamente adattata alle esigenze del committente ed erogata _on-site_ o in nostre _location_. Potete [contattarci](https://bit.ly/contact-dgi) per esplorare assieme le opportunità.
+
+Si parte da una solida introduzione che non richiede competenze preliminare, per avanzare fino ai temi più tecnici ed impementativi che richiedono una buona attiduzione al pensiero matematico o computazionale.
+
+Il materiale didattico comprende le slide presentate in aula, i principali libri di riferimento, codice e software open-source, ulteriori risorse di approfondimento. Tale materiale resta a disposizione dei partecipanti anche nelle sue evoluzioni successive al momento formativo.
 
 Di seguito c'è una presentazione orientativa di argomenti, materiali, tempi, destinatari e modalità di formazione.
 
