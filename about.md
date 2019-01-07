@@ -14,7 +14,7 @@ email contact form: <http://bit.ly/contact-dgi>
 PEC: [dginst@pec.it](mailto:dginst@pec.it)
 
 Bank: BANCO BPM  
-SWIFT Code: BAPPIT21AH8  
-IBAN Code: IT72Y0503433730000000015343
+SWIFT: BAPPIT21AH8  
+IBAN: IT72Y0503433730000000015343
 
 [![SVG logo](/images/dgi-logo.svg)](/images/dgi-logo.svg)  
