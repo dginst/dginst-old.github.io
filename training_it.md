@@ -6,11 +6,17 @@ permalink: /training_it/
 
 # Offerta formativa
 
-DGI propone diversi moduli/workshop sui temi bitcoin, blockchain, _distributed ledger_, _smart contracts_, ecc. L'offerta formativa può essere costruita su misura per le esigenze del committente ed erogata _on-site_ o presso nostri locali. Potete [contattarci](https://bit.ly/contact-dgi) per esplorare assieme le opportunità.
+DGI propone diversi moduli/workshop sui temi bitcoin, blockchain, _distributed ledger_, _smart contracts_, ecc.
+
+L'offerta formativa è basata sul corso [_Bitcoin and Blockchain Technology_](http://www.ametrano.net/bbt) del Politecnico di Milano e Milano Bicocca; può essere ovviamente adattata alle esigenze del committente ed erogata _on-site_ o in nostre _location_. Potete [contattarci](https://bit.ly/contact-dgi) per esplorare assieme le opportunità.
+
+Si parte da una solida introduzione che non richiede competenze preliminare, per avanzare fino ai temi più tecnici ed impementativi che richiedono una buona attiduzione al pensiero matematico o computazionale.
+
+Il materiale didattico comprende le slide presentate in aula, i principali libri di riferimento, codice e software open-source, ulteriori risorse di approfondimento. Tale materiale resta a disposizione dei partecipanti anche nelle sue evoluzioni successive al momento formativo.
 
 Di seguito c'è una presentazione orientativa di argomenti, materiali, tempi, destinatari e modalità di formazione.
 
-Per ogni modulo formativo sono indicate le propedeuticità e l'audience ideale. Ogni modulo può essere fruito in versione estesa (150m) o compatta (90m): due moduli sostanzialmente riempiono una intensa mezza giornata, tre moduli riempiono una giornata intera.
+Per ogni modulo formativo sono indicate le propedeuticità e l'audience ideale. Ogni modulo può essere fruito in versione estesa (150m) o compatta (90m): due moduli sostanzialmente riempiono una _intensa_ mezza giornata, tre moduli riempiono una giornata intera.
 
 I moduli 1, 8, 9 sono fruibili da tutti: manager c-level, manager funzionali, sviluppatori, ricercatori, appassionati di tecnologia.
 
@@ -18,13 +24,13 @@ Il modulo 2 inizia a scendere nel funzionale, perde quindi un po' di appeal per 
 
 I moduli 3, 4, e 5 sono tecnici, più orientati quindi verso gli sviluppatori.
 
-Il modulo 6 introduce il concetto di lab sperimentale e può essere fruito come unità a sé stante o meglio se magari scompattandone i contenuti di esercitazione all'interno degli altri moduli. Rende necessario che i partecipanti abbiano un loro laptop.
+Il modulo 6 introduce il concetto di lab sperimentale e può essere fruito come unità a sé stante o meglio ancora suddividendo le diverse exercitazioni all'interno degli altri moduli. È ovviamente necessario che i partecipanti abbiano un loro laptop.
 
 Il modulo 3 di crittografia è estremamente tecnico e rivolto ad una audience di ingegneri, matematici, fisici, informatici; il modulo 7 è un approfondimento sulle tecniche di frontiera interessante solo per loro. Sono moduli difficili per un'audience generica che non sia ben disposta verso la matematica e la logica.
 
 Una giornata generalista può includere i moduli 1, 8 e 9 (magari anche il modulo 2), mentre un mix di 2, 3, 4, 5 può essere una giornata tecnica. La giornata generalista è prerequisito per quella tecnica.
 
-Se ci si orienta sulla mezza giornata, che è forse la misura migliore di somministrazione di questi contenuti, si può iniziare con 1 e 9, a cui si può far seguire mezza giornata "funzionale" con 2 e 8, proseguendo infine con un numero a piacere di mezze giornate tecniche, fino ad un massimo complessivo di cinque mezze giornate.
+L'esperienza suggerisce che, a meno di corsi residenziali, è meglio prevedere unità formative di mezza giornata. In questo caso si può iniziare con i moduli 1 e 9 (introduzione), proseguire con i moduli 2 e 8 (aspetti funzionali), proseguendo infine con un numero a piacere di mezze giornate tecniche, fino ad un massimo complessivo di sei mezze giornate.
 
 Il training può essere svolto in inglese o italiano, il materiale distribuito è in inglese.
 

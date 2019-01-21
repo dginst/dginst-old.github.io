@@ -19,7 +19,7 @@ html {
 
 body {
 	background: $white;
-  font: 18px/1.4 $georgia;
+  font: 18px/1.4 $helveticaNeue;
   color: $darkGray;
 }
 
@@ -31,7 +31,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $georgia;
+  font-family: $helveticaNeue;
   color: $darkerGray;
   font-weight: bold;
 
@@ -108,6 +108,11 @@ strong, b {
 
 img {
   max-width: 100%;
+}
+
+
+img.partner-logo {
+  height:100px;
 }
 
 // Fixes images in popup boxes from Google Translate
@@ -194,7 +199,7 @@ img {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $georgia;
+  font-family: $helveticaNeue;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -213,7 +218,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $georgia;
+  font-family: $helveticaNeue;
   font-size: 18px;
 
   @include mobile {
@@ -282,6 +287,7 @@ footer {
   padding: 20px 0;
   text-align: center;
 }
+
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
