@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>OpenTimestamps</title>
+  <link rel="stylesheet" href="./assets/stylesheets/application.css" media="screen" title="no title">
+</head>
+<body>
+<style>
+  </style>
+  <header class="header">
+    <a href="https://www.dgi.io"><img class="partner-logo" src="../images/dgi-logo.svg" alt="Ania"></a>
+    <a href="https://www.ania.it"><img class="partner-logo" src="../images/ania-logo.jpg" alt="Ania"></a>
+  </header>
+
+  <!-- STAMP AND VERIFY -->
+  <section class="stamp-and-verify" id="stamp-and-verify">
+    <div class="container">
+
+      <div class="" id="stamp">
+        <p class="stamp-and-verify-block-title" style="text-align: center;">STAMP OR VERIFY</p>
+        <p class="stamp-and-verify-description" style="text-align: center;">
+          Drop below a file to <b>stamp</b> it: its <i>.ots</i> OpenTimestamps receipt
+          will be downloaded automatically.
+          <br>The hash of the file will be calculated inside your browser preserving your privacy.
+          <br><br>Alternatively, drop below an <i>.ots</i> receipt/proof file to <b>verify</b> it.
+        </p>
+  
+      </div>
+
+      <div class="stamp-and-verify-drop-zone" id="dropbox1">
+        <span class="filename"></span>
+        <span class="filesize"></span>
+        <br><p class="hash">Drop here a file to <b>stamp</b> OR an <i>.ots</i> receipt/proof file to <b>verify</b></p>
+      </div>
+      <input id="dropbox1_input" type="file" style="display:none">
+
+      <div class="statuses statuses_hashing" id="proof-status" style="display: none">
+          <a href="#" class="statuses-info" style="display: none"></a>
+          <p class="statuses-title">52%</p>
+          <p class="statuses-description">Verifying</p>
+      </div>
+    
+      <br>
+
+      <div class="stamp-and-verify-drop-zone" id="dropbox2" style="display:none">
+        <span class="filename"></span>
+        <span class="filesize"></span>
+        <br><p class="hash">Drop here the original file to check that its hash matches the stamped one</p>
+      </div>
+      <input id="dropbox2_input" type="file" style="display:none">
+
+      <div class="statuses statuses_hashing" id="document-status" style="display: none">
+          <p class="statuses-title">xx%</p>
+          <p class="statuses-description">Hashing</p>
+      </div>
+
+    </div>
+  
+  </section>
+
+  <script src="./assets/javascripts/application.js"></script>
+  <script src="./assets/javascripts/vendor/moment.min.js"></script>
+  <script src="./assets/javascripts/vendor/moment-timezone-with-data-2012-2022.min.js"></script>
+  <!-- OpenTimestamps JavaScript (https://opentimestamps.org or local one) -->
+  <script src="./assets/javascripts/vendor/opentimestamps.min.js"></script>
+  <script src="./assets/javascripts/crypto-js/crypto-js.js"></script>
+  <script src="./assets/javascripts/index.js"></script>
+</body>
+</html>
