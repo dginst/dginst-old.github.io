@@ -13,7 +13,7 @@ permalink: /ots/
     blockchain timestamps and later independently verifying them.
 </p>
 <p>
-    An OpenTimestamps calendar server provides aggregation of multiple
+    An OpenTimestamps <em>calendar</em> server provides aggregation of multiple
     documents and timestamping using a single blockchain transaction for
     the aggregated documents. Moreover, a calendar remotely provides these
     services to OpenTimestamps clients.
@@ -29,10 +29,11 @@ permalink: /ots/
     the proof is attested in a Bitcoin block header;
     this webpage
     is an interface to create timestamp proofs using the facilities provided
-    by the public free bitcoin <em>calendar</em> servers.
+    by the public free bitcoin calendar servers.
 </p>
 <p>
-    Timestamps can be verified independently using a local Bitcoin Core
+    Timestamps can be verified independently using a local
+    <a href="https://bitcoincore.org/en/download/"">Bitcoin Core</a>
     node; anyway, since a web-page cannot access the local filesystem,
     this page relies for verification on public blockexplorers.
 </p>
@@ -50,7 +51,7 @@ permalink: /ots/
         <li>
         is as reliable as the blockchain used, i.e. it is reliable
         when used with bitcoin because that chain is secured by huge
-        computational power (<em>proof-of-work</em>), much less reliable
+        computational power (<em>proof-of-work</em>). It is much less reliable
         with other public permissionless chain; when used with private
         permissioned blockchain its reliability depends on the reliability
         of the chain governance: in that case traditional certification
@@ -68,7 +69,7 @@ permalink: /ots/
           Drop below a file to <b>stamp</b> it: its <i>.ots</i> OpenTimestamps receipt
           will be downloaded automatically.
           <br>The hash of the file will be calculated inside your browser preserving your privacy.
-          <br><br>Alternatively, drop below an <i>.ots</i> receipt/proof file to <b>verify</b> it.
+          <br>Alternatively, drop below an <i>.ots</i> receipt/proof file to <b>verify</b> it.
         </p>
   
       </div>
