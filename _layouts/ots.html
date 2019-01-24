@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+
+    {% include meta.html %}
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="./assets/stylesheets/application.css" media="screen" title="no title">
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="stylesheet" href="/_sass/flexslider.css">
+    
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta name="google-site-verification" content="FFJAtMlapueRI580XCEnVYwm8hoiQGNhpxY73NEAj_I" />
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+
+          <div class="site-info">
+            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+            <p class="site-description">{{ site.description }}</p>
+          </div>
+
+          <nav>
+            {% if page.url == "/"} %}
+              <b><u><a href="{{ site.baseurl }}/">Home</a></u></b>
+            {% else %}
+              <a href="{{ site.baseurl }}/">Home</a>
+            {% endif %}
+
+            {% if page.url == "/vision/"} %}
+              <b><u><a href="{{ site.baseurl }}/vision/">Vision</a></u></b>
+            {% else %}
+              <a href="{{ site.baseurl }}/vision/">Vision</a>
+            {% endif %}
+
+            {% if page.url == "/team/"} %}
+              <b><u><a href="{{ site.baseurl }}/team/">Team</a></u></b>
+            {% else %}
+              <a href="{{ site.baseurl }}/team/">Team</a>
+            {% endif %}
+
+            {% if page.url == "/blog/"} %}
+              <b><u><a href="{{ site.baseurl }}/blog/">Blog</a></u></b>
+            {% else %}
+              <a href="{{ site.baseurl }}/blog/">Blog</a>
+            {% endif %}
+
+            {% if page.url == "/about/"} %}
+              <b><u><a href="{{ site.baseurl }}/about/">About</a></u></b>
+            {% else %}
+              <a href="{{ site.baseurl }}/about/">About</a>
+            {% endif %}
+          </nav>
+
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      {{ content }}
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          {% include svg-icons.html %}
+        </footer>
+      </div>
+    </div>
+
+    {% include analytics.html %}
+
+    <script src="./assets/javascripts/application.js"></script>
+    <script src="./assets/javascripts/vendor/moment.min.js"></script>
+    <script src="./assets/javascripts/vendor/moment-timezone-with-data-2012-2022.min.js"></script>
+    <script src="./assets/javascripts/vendor/opentimestamps.min.js"></script>
+    <script src="./assets/javascripts/crypto-js/crypto-js.js"></script>
+    <script src="./assets/javascripts/index.js"></script>
+  
+</body>
+</html>
