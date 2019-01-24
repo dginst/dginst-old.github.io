@@ -1,49 +1,62 @@
 ---
 layout: ots
+title: OpenTimestamps
+permalink: /ots/
 ---
 
 <a href="https://www.opentimestamps.org"><img class="partner-logo" src="https://opentimestamps.org/assets/images/logos@2x.png" alt="OpenTimestamps"></a>
 
-<p>A timestamp proves that some data existed prior to some point in time.
-    <a href="www.opentimestamps.org">OpenTimestamps</a> (OTS) defines
-    a standard set of operations for creating provable blockchain timestamps
-    and later independently verifying them.
+<p>
+    A timestamp proves that some data existed prior to some point in time.
+    The <a href="www.opentimestamps.org">OpenTimestamps</a> protocol defines
+    an open standard consisting in a set of operations for creating provable
+    blockchain timestamps and later independently verifying them.
 </p>
-<p>While the protocol is blockchain agnostic,
+<p>
+    An OpenTimestamps calendar server provides aggregation of multiple
+    documents and timestamping using a single blockchain transaction for
+    the aggregated documents. Moreover, a calendar remotely provides these
+    services to OpenTimestamps clients.
+</p>
+<p>
+    Anyone could realize a timestamp with the permissionless blockchain(s)
+    by paying the transaction fees; conveniently, OpenTimestamps public servers
+    exist that are free to use without any registration or API key.
+</p>
+<p>
+    While the OpenTimestamps protocol is blockchain agnostic,
     here the Bitcoin blockchain is used as a timestamp notary:
     the proof is attested in a Bitcoin block header;
     this webpage
     is an interface to create timestamp proofs using the facilities provided
-    by the public free OpenTimestamps bitcoin <em>calendar</em> servers.
+    by the public free bitcoin <em>calendar</em> servers.
 </p>
-<p>Anyone could realize a timestamp with the permissionless blockchain(s)
-    by paying the transaction fees; conveniently, OpenTimestamps performs
-    this operation for free without any registration or API key.
-    An OpenTimestamps calendar server provides aggregation of multiple
-    documents and timestamping using a single blockchain transaction for
-    the aggregated documents.
-    Moreover, a calendar remotely provides these services to
-    OpenTimestamps clients, so that a server is not needed to use the
-    protocol: public servers exist that are free to use.
-</p>
-<p>Timestamps can be verified independently using a local Bitcoin Core
+<p>
+    Timestamps can be verified independently using a local Bitcoin Core
     node; anyway, since a web-page cannot access the local filesystem,
-    it relies on public blockexplorers.
+    this page relies for verification on public blockexplorers.
 </p>
-<p>It should be obvious, but is is worth mentioning that time-stamping:
-  <ul>
-    <li>does not prove authorship (that should be provided using a
-        digital signature);</li>
-    <li>does not ensure veracity of the timestamped document;</li>
-    <li>is as reliable as the blockchain used, i.e. it is reliable
+<p>
+    It should be obvious, but is is worth mentioning that time-stamping
+    (using the OpenTimestamps protocol or any alternative approach):
+    <ul>
+        <li>
+        does not prove authorship (that should be provided using a
+        digital signature);
+        </li>
+        <li>
+        does not ensure veracity of the timestamped document;
+        </li>
+        <li>
+        is as reliable as the blockchain used, i.e. it is reliable
         when used with bitcoin because that chain is secured by huge
         computational power (<em>proof-of-work</em>), much less reliable
         with other public permissionless chain; when used with private
         permissioned blockchain its reliability depends on the reliability
         of the chain governance: in that case traditional certification
         authorities are probably better.
-    </li>
-  </ul>
+        </li>
+    </ul>
 </p>
 
 <section class="stamp-and-verify" id="stamp-and-verify">
