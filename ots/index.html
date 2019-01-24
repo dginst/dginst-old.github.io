@@ -4,71 +4,18 @@ title: OpenTimestamps
 permalink: /ots/
 ---
 
-<a href="https://www.opentimestamps.org"><img class="partner-logo" src="https://opentimestamps.org/assets/images/logos@2x.png" alt="OpenTimestamps"></a>
-
-<p>
-    A timestamp proves that some data existed prior to some point in time.
-    The <a href="www.opentimestamps.org">OpenTimestamps</a> protocol defines
-    an open standard consisting in a set of operations for creating provable
-    blockchain timestamps and later independently verifying them.
-</p>
-<p>
-    An OpenTimestamps <em>calendar</em> server provides aggregation of multiple
-    documents and timestamping using a single blockchain transaction for
-    the aggregated documents. Moreover, a calendar remotely provides these
-    services to OpenTimestamps clients.
-</p>
-<p>
-    Anyone could realize a timestamp with the permissionless blockchain(s)
-    by paying the transaction fees; conveniently, OpenTimestamps public servers
-    exist that are free to use without any registration or API key.
-</p>
-<p>
-    While the OpenTimestamps protocol is blockchain agnostic,
-    here the Bitcoin blockchain is used as a timestamp notary:
-    the proof is attested in a Bitcoin block header;
-    this webpage
-    is an interface to create timestamp proofs using the facilities provided
-    by the public free bitcoin calendar servers.
-</p>
-<p>
-    Timestamps can be verified independently using a local
-    <a href="https://bitcoincore.org/en/download/"">Bitcoin Core</a>
-    node; anyway, since a web-page cannot access the local filesystem,
-    this page relies for verification on public blockexplorers.
-</p>
-<p>
-    It should be obvious, but is is worth mentioning that time-stamping
-    (using the OpenTimestamps protocol or any alternative approach):
-    <ul>
-        <li>
-        does not prove authorship (that should be provided using a
-        digital signature);
-        </li>
-        <li>
-        does not ensure veracity of the timestamped document;
-        </li>
-        <li>
-        is as reliable as the blockchain used, i.e. it is reliable
-        when used with bitcoin because that chain is secured by huge
-        computational power (<em>proof-of-work</em>). It is much less reliable
-        with other public permissionless chain; when used with private
-        permissioned blockchain its reliability depends on the reliability
-        of the chain governance: in that case traditional certification
-        authorities are probably better.
-        </li>
-    </ul>
-</p>
-
 <section class="stamp-and-verify" id="stamp-and-verify">
     <div class="container">
 
       <div class="" id="stamp">
-        <p class="stamp-and-verify-block-title" style="text-align: center;">STAMP OR VERIFY</p>
+        <p class="stamp-and-verify-block-title" style="text-align: center;">
+            STAMP OR VERIFY
+            <a href="https://www.opentimestamps.org"><img class="partner-logo" src="https://opentimestamps.org/assets/images/logos@2x.png" alt="OpenTimestamps"></a>
+        </p>
         <p class="stamp-and-verify-description" style="text-align: center;">
           Drop below a file to <b>stamp</b> it: its <i>.ots</i> OpenTimestamps receipt
-          will be downloaded automatically.
-          <br>The hash of the file will be calculated inside your browser preserving your privacy.
+          will be downloaded automatically. The hash of the file will be calculated inside your
+          browser preserving your privacy.
           <br>Alternatively, drop below an <i>.ots</i> receipt/proof file to <b>verify</b> it.
         </p>
   
@@ -77,7 +24,8 @@ permalink: /ots/
       <div class="stamp-and-verify-drop-zone" id="dropbox1">
         <span class="filename"></span>
         <span class="filesize"></span>
-        <br><p class="hash">Drop here a file to <b>stamp</b> OR an <i>.ots</i> receipt/proof file to <b>verify</b></p>
+        <p class="hash">Drop here a file to <b>stamp</b> OR an <i>.ots</i> receipt/proof file
+            to <b>verify</b></p>
       </div>
       <input id="dropbox1_input" type="file" style="display:none">
 
@@ -92,7 +40,7 @@ permalink: /ots/
       <div class="stamp-and-verify-drop-zone" id="dropbox2" style="display:none">
         <span class="filename"></span>
         <span class="filesize"></span>
-        <br><p class="hash">Drop here the original file to check that its hash matches the stamped one</p>
+        <p class="hash">Drop here the original file to check that its hash matches the stamped one</p>
       </div>
       <input id="dropbox2_input" type="file" style="display:none">
 
@@ -104,3 +52,64 @@ permalink: /ots/
     </div>
   
 </section>
+
+<a href="https://www.opentimestamps.org"><img class="partner-logo" src="https://opentimestamps.org/assets/images/logos@2x.png" alt="OpenTimestamps"></a>
+
+<p>
+    A timestamp proves that some data existed prior to some point in time.
+    The <a href="www.opentimestamps.org">OpenTimestamps</a> protocol defines
+    an open standard consisting in a set of operations for creating provable
+    blockchain timestamps and later independently verifying them.
+</p>
+<p>
+    An OpenTimestamps <em>calendar</em> server provides aggregation of multiple
+    documents allowing to timestamp all of them at the same time using just a
+    single blockchain transaction.
+    Moreover, a calendar server can offer its services to multiple remote
+    OpenTimestamps clients.
+    While anyone could realize a timestamp with the permissionless
+    blockchain(s) by paying the transaction fees, OpenTimestamps public servers
+    are free to use without any registration or API key.
+</p>
+<p>
+    While the OpenTimestamps protocol is blockchain agnostic,
+    a timestamp is as much reliable as the used blockchain:
+    <ul>
+        <li>
+            very reliable when used with the bitcoin's blockchain
+            because that chain is secured by huge
+            computational power (<em>proof-of-work</em>);
+        </li>
+        <li>
+            much less reliable with other public permissionless chain;
+        </li>
+        <li>
+            when used with private permissioned blockchain its reliability
+            depends on the reliability of the chain governance: in that case
+            traditional certification authorities are probably better.
+        </li>
+    </ul>
+</p>
+<p>
+    This webpage is an interface to create timestamp proofs using the
+    facilities provided by the OpenTimestamps public free bitcoin calendar
+    servers: Bitcoin's blockchain is used as a timestamp notary, i.e. the proof
+    is attested in a Bitcoin block header.<br>
+    Timestamps can be verified independently using a local
+    <a href="https://bitcoincore.org/en/download/"">Bitcoin Core</a>
+    node; anyway, since a web-page cannot access the local filesystem,
+    this page relies on public blockexplorers for verification.
+</p>
+<p>
+    It should be obvious, but it is worth mentioning that time-stamping
+    (using the OpenTimestamps protocol or any alternative approach):
+    <ul>
+        <li>
+        does not prove authorship (that should be provided using a
+        digital signature);
+        </li>
+        <li>
+        does not ensure veracity of the timestamped document.
+        </li>
+    </ul>
+</p>
