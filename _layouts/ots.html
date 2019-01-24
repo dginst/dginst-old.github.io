@@ -59,6 +59,12 @@
               <a href="{{ site.baseurl }}/team/">Team</a>
             {% endif %}
 
+            {% if page.url == "/ots/"} %}
+              <b><u><a href="{{ site.baseurl }}/ots/">OpenTimestamps</a></u></b>
+            {% else %}
+              <a href="{{ site.baseurl }}/ots/">OpenTimestamps</a>
+            {% endif %}
+
             {% if page.url == "/blog/"} %}
               <b><u><a href="{{ site.baseurl }}/blog/">Blog</a></u></b>
             {% else %}
