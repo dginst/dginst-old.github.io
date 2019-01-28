@@ -21,6 +21,8 @@ permalink: /team/
 
 * Andrea Brandoli ([AndreaBrandoli90](https://github.com/AndreaBrandoli90))  
   Thesis: <https://github.com/AndreaBrandoli90/MasterThesis>
+* Marcello Pichini ([mpichini1](https://github.com/mpichini1))
+  Thesis: <https://github.com/mpichini1/Thesis>
 * Samuele Vianello ([SamueleVianello](https://github.com/SamueleVianello))  
   Thesis: <https://github.com/SamueleVianello/MasterThesis>
 
