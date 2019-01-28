@@ -23,6 +23,8 @@ permalink: /team/
   Thesis: <https://github.com/AndreaBrandoli90/MasterThesis>
 * Samuele Vianello ([SamueleVianello](https://github.com/SamueleVianello))  
   Thesis: <https://github.com/SamueleVianello/MasterThesis>
+* Marcello Pichini ([mpichini1](https://github.com/mpichini1))
+  Thesis: <https://github.com/mpichini1/Thesis>
 
 # Alumni
 
