@@ -20,7 +20,7 @@ permalink: /team/
 # Current students
 
 * Matteo Avigni ([matteoavigni](https://github.com/matteoavigni))  
-  Thesis: <https://github.com/matteoavigni/MasterThesis>
+  Thesis: TBD
 * Andrea Brandoli ([AndreaBrandoli90](https://github.com/AndreaBrandoli90))  
   Thesis: <https://github.com/AndreaBrandoli90/MasterThesis>
 * Marcello Pichini ([mpichini1](https://github.com/mpichini1))  
