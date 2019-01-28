@@ -19,12 +19,14 @@ permalink: /team/
 
 # Current students
 
-* Andrea Brandoli ([AndreaBrandoli90](https://github.com/AndreaBrandoli90))  
-  Thesis: <https://github.com/AndreaBrandoli90/MasterThesis>
-* Samuele Vianello ([SamueleVianello](https://github.com/SamueleVianello))  
-  Thesis: <https://github.com/SamueleVianello/MasterThesis>
 * Matteo Avigni ([matteoavigni](https://github.com/matteoavigni))  
   Thesis: <https://github.com/matteoavigni/MasterThesis>
+* Andrea Brandoli ([AndreaBrandoli90](https://github.com/AndreaBrandoli90))  
+  Thesis: <https://github.com/AndreaBrandoli90/MasterThesis>
+* Marcello Pichini ([mpichini1](https://github.com/mpichini1))
+  Thesis: <https://github.com/mpichini1/Thesis>
+* Samuele Vianello ([SamueleVianello](https://github.com/SamueleVianello))  
+  Thesis: <https://github.com/SamueleVianello/MasterThesis>
 
 # Alumni
 
@@ -41,4 +43,3 @@ permalink: /team/
 * Chiara Lelli ([clelli](https://github.com/clelli)), March 2018  
   Thesis: _Schnorr signature: additivity and multisignature_ ([pdf](https://github.com/clelli/Schnorr/blob/master/tesi.pdf), [source](https://github.com/clelli/Schnorr))  
   Winner of the 2017/2018 _Blockchain Thesis Award_ of the Italian Blockchain Educational Network
-
