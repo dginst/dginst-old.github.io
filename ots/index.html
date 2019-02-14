@@ -1,31 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>OpenTimestamps</title>
-  <link rel="stylesheet" href="./assets/stylesheets/application.css" media="screen" title="no title">
-</head>
-<body>
-<style>
-  </style>
-  <header class="header">
-  </header>
+---
+layout: ots
+title: OpenTimestamps
+permalink: /ots/
+---
 
-  <!-- STAMP AND VERIFY -->
-  <section class="stamp-and-verify" id="stamp-and-verify">
-    <p style="text-align: center;">
-      <a href="https://www.dgi.io"><img class="partner-logo" src="../images/dgi-logo.png"  height="223" alt="Digital Gold Institute"></a>
-      <a href="https://www.ania.it"><img class="partner-logo" src="../images/ania-logo.png" height="223" alt="Ania"></a>
-    </p>
-    <br>
+<a href="https://www.opentimestamps.org"><img class="partner-logo-centered" src="https://opentimestamps.org/assets/images/logos@2x.png" alt="OpenTimestamps"></a>
+
+<section class="stamp-and-verify" id="stamp-and-verify">
     <div class="container">
 
       <div class="" id="stamp">
-        <p class="stamp-and-verify-block-title" style="text-align: center;">STAMP OR VERIFY</p>
-        <p class="stamp-and-verify-description" style="text-align: center;">
+        <p>
           Drop below a file to <b>stamp</b> it: its <i>.ots</i> OpenTimestamps receipt
-          will be downloaded automatically.
-          <br>The hash of the file will be calculated inside your browser preserving your privacy.
-          <br><br>Alternatively, drop below an <i>.ots</i> receipt/proof file to <b>verify</b> it.
+          will be downloaded automatically. The hash of the file will be calculated inside your
+          browser preserving your privacy.<br>
+          <br>Alternatively, drop below an <i>.ots</i> receipt/proof file to <b>verify</b> it.
         </p>
   
       </div>
@@ -33,7 +22,8 @@
       <div class="stamp-and-verify-drop-zone" id="dropbox1">
         <span class="filename"></span>
         <span class="filesize"></span>
-        <br><p class="hash">Drop here a file to <b>stamp</b> OR an <i>.ots</i> receipt/proof file to <b>verify</b></p>
+        <p class="hash">Drop here a file to <b>stamp</b> OR an <i>.ots</i> receipt/proof file
+            to <b>verify</b></p>
       </div>
       <input id="dropbox1_input" type="file" style="display:none">
 
@@ -42,13 +32,13 @@
           <p class="statuses-title">52%</p>
           <p class="statuses-description">Verifying</p>
       </div>
-    
+
       <br>
 
       <div class="stamp-and-verify-drop-zone" id="dropbox2" style="display:none">
         <span class="filename"></span>
         <span class="filesize"></span>
-        <br><p class="hash">Drop here the original file to check that its hash matches the stamped one</p>
+        <p class="hash">Drop here the original file to check that its hash matches the stamped one</p>
       </div>
       <input id="dropbox2_input" type="file" style="display:none">
 
@@ -59,14 +49,68 @@
 
     </div>
   
-  </section>
+</section>
 
-  <script src="./assets/javascripts/application.js"></script>
-  <script src="./assets/javascripts/vendor/moment.min.js"></script>
-  <script src="./assets/javascripts/vendor/moment-timezone-with-data-2012-2022.min.js"></script>
-  <!-- OpenTimestamps JavaScript (https://opentimestamps.org or local one) -->
-  <script src="./assets/javascripts/vendor/opentimestamps.min.js"></script>
-  <script src="./assets/javascripts/crypto-js/crypto-js.js"></script>
-  <script src="./assets/javascripts/index.js"></script>
-</body>
-</html>
+<p>
+    A timestamp proves that some data existed prior to some point in time.
+    The <a href="www.opentimestamps.org">OpenTimestamps</a> protocol defines
+    an open standard consisting in a set of operations for creating provable
+    blockchain timestamps and later independently verifying them.
+</p>
+<p>
+    An OpenTimestamps <em>calendar</em> server provides aggregation of multiple
+    documents allowing to timestamp all of them at the same time using just a
+    single blockchain transaction.
+    Moreover, a calendar server can offer its services to multiple remote
+    OpenTimestamps clients.
+    While anyone could realize a timestamp with the permissionless
+    blockchain(s) by paying the transaction fees, OpenTimestamps public servers
+    are free to use without any registration or API key.
+</p>
+<p>
+    While the OpenTimestamps protocol is blockchain agnostic,
+    a timestamp is as reliable as the used blockchain:
+    <ul>
+        <li>
+            very reliable when using Bitcoin
+            because that blockchain is secured by huge
+            computational power (<em>proof-of-work</em>);
+        </li>
+        <li>
+            much less reliable with other public permissionless blockchain;
+        </li>
+        <li>
+            when used with private permissioned blockchain its reliability
+            depends on the reliability of the chain governance: in that case
+            traditional certification authorities are probably better.
+        </li>
+    </ul>
+</p>
+<p>
+    This webpage is an interface to create timestamp proofs using the
+    facilities provided by the OpenTimestamps public free bitcoin calendar
+    servers: Bitcoin's blockchain is used as a timestamp notary, i.e. the proof
+    is attested in a Bitcoin block header.
+    Timestamps can be verified independently using a local
+    <a href="https://bitcoincore.org/en/download/"">Bitcoin Core</a>
+    node; anyway, since a web-page cannot access the local filesystem,
+    this page relies on public block-explorers for verification.
+</p>
+<p>
+    It should be obvious, but it is worth mentioning that timestamping
+    (using the OpenTimestamps protocol or any alternative approach):
+    <ul>
+        <li>
+        does not prove authorship (that should be proved using a
+        digital signature);
+        </li>
+        <li>
+        does not ensure veracity of the timestamped document.
+        </li>
+    </ul>
+</p>
+
+<p>
+    For a step by step tutorial about OpenTimestamps, see
+    <a href="./tools/">www.dgi.io/ots/tools</a>
+</p>
