@@ -10,27 +10,23 @@ DGI propone diversi moduli/workshop sui temi bitcoin, blockchain, _distributed l
 
 L'offerta formativa è basata sul corso [_Bitcoin and Blockchain Technology_](http://www.ametrano.net/bbt) del Politecnico di Milano e Milano Bicocca; può essere ovviamente adattata alle esigenze del committente ed erogata _on-site_ o in nostre _location_. Potete [contattarci](https://bit.ly/contact-dgi) per esplorare assieme le opportunità.
 
-Si parte da una solida introduzione, accessibile a tutti perché non richiede competenze preliminare, per avanzare fino a temi più tecnici ed impementativi che richiedono una buona attitudine al pensiero matematico o computazionale.
+Si parte da una solida introduzione, accessibile a tutti perché non richiede competenze preliminari, per avanzare fino a temi più tecnici ed impementativi che richiedono una buona attitudine al pensiero matematico o computazionale.
 
 Il materiale didattico comprende le slide presentate in aula, i principali libri di riferimento, codice e software open-source, ulteriori risorse di approfondimento. Tale materiale resta a disposizione dei partecipanti anche nelle sue evoluzioni successive al momento formativo.
 
 Di seguito c'è una presentazione orientativa di argomenti, materiali, tempi, destinatari e modalità di formazione.
 
-Per ogni modulo formativo sono indicate le propedeuticità e l'audience ideale. Ogni modulo può essere fruito in versione completa (tre ore) o ristretta (due ore): per ogni modulo è suggerita un'ora aggiuntiva di sperimentazione in aula con portatile e connessione internet. Tutti i moduli sono fruibili in quattro giornate (o meglio otto mezze giornate)
+Per ogni modulo formativo sono indicate le propedeuticità e l'audience ideale. Ogni modulo può essere fruito in versione completa (tre ore) o ristretta (due ore): per ogni modulo è suggerita un'ora aggiuntiva di sperimentazione in aula con portatile e connessione internet.
 
-I moduli 1, 8, 9 sono fruibili da tutti: _c-level_, manager funzionali, sviluppatori, ricercatori, appassionati di tecnologia.
+I moduli 1, 7, 8 sono fruibili da tutti: _c-level_, manager funzionali, sviluppatori, ricercatori, appassionati di tecnologia.
 
 Il modulo 2 inizia a scendere nel funzionale, perde quindi un po' di appeal per i c-level ma è sempre molto apprezzato perché apre ad una comprensione reale e non superficiale.
 
-I moduli 3, 4, e 5 sono tecnici, più orientati quindi verso gli sviluppatori.
+I moduli 3, 4 e 5 sono tecnici, più orientati quindi verso gli sviluppatori.
 
-Il modulo 6 introduce il concetto di lab sperimentale e può essere fruito come unità a sé stante o meglio ancora suddividendo le diverse exercitazioni all'interno degli altri moduli. È ovviamente necessario che i partecipanti abbiano un loro laptop.
+Il modulo 3 di crittografia è estremamente tecnico e rivolto ad una audience di ingegneri, matematici, fisici, informatici; il modulo 6 è un approfondimento sulle tecniche di frontiera interessante solo per loro. Sono moduli difficili per un'audience generica che non sia ben disposta verso la matematica e la logica.
 
-Il modulo 3 di crittografia è estremamente tecnico e rivolto ad una audience di ingegneri, matematici, fisici, informatici; il modulo 7 è un approfondimento sulle tecniche di frontiera interessante solo per loro. Sono moduli difficili per un'audience generica che non sia ben disposta verso la matematica e la logica.
-
-Una giornata generalista può includere i moduli 1, 8 e 9 (magari anche il modulo 2), mentre un mix di 2, 3, 4, 5 può essere una giornata tecnica. La giornata generalista è prerequisito per quella tecnica.
-
-L'esperienza suggerisce che, a meno di corsi residenziali, è meglio prevedere unità formative di mezza giornata. In questo caso si può iniziare con i moduli 1 e 9 (introduzione), proseguire con i moduli 2 e 8 (aspetti funzionali), proseguendo infine con un numero a piacere di mezze giornate tecniche, fino ad un massimo complessivo di sei mezze giornate.
+Una giornata generalista può includere il modulo 1 ed a scelta 2, 7 o 8; un workshop di due giorni può caratterizzarsi funzionalmente (1, 2, 7, 8) o tecnicamente (1, 2, 3, 4, 5). L'insieme di tutti i moduli è fruibili in quattro giornate. L'esperienza suggerisce che, a meno di corsi residenziali, è meglio prevedere unità formative di mezza giornata.
 
 Il training può essere svolto in inglese o italiano, il materiale distribuito è in inglese.
 
@@ -87,10 +83,11 @@ Il training può essere svolto in inglese o italiano, il materiale distribuito �
 6. Advanced Elliptic Curve Cryptography  
    prerequisiti: modulo 3; laptop per la parte sperimentale  
    audience: researchers, technologists, developers
-    - Schnorr Signature
+    - Schnorr Signature and batch validation
     - Mu(lti)Sig(nature)
-    - Boneh–Lynn–Shacham (BLS) signature scheme
     - Pedersen Commitment
+    - Ring signature
+    - Boneh–Lynn–Shacham (BLS) signature scheme
     - Confidential Transactions
     - Range Proof
     - Bullet Proof
@@ -103,8 +100,7 @@ Il training può essere svolto in inglese o italiano, il materiale distribuito �
     - Private Monies and Bitcoin
     - Hayek Money
     - Other Cryptocurrencies
-    - Tokenization
-    - ICO
+    - Tokenization e ICO
     - Ethereum, ERC20 e ERC223
 8. Bitcoin, Blockchain, and Distributed Ledger Technology: Hype or Reality?  
    prerequisiti: modulo 1; laptop per la parte sperimentale  
