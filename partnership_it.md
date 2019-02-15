@@ -8,9 +8,9 @@ permalink: /partnership_it/
 
 Il mercato del lavoro e dei capitali (industria, finanza, venture capital) ha una domanda forte e crescente per tecnici qualificati sui temi bitcoin e blockchain: Digital Gold Institute vuole creare un polo di eccellenza che, partendo dall’attività di ricerca e sviluppo, diventi un ambiente di incubazione per tecnici ed innovatori qualificati a livello internazionale.
 
-Facendo leva sugli studenti coinvolti in lavori di tesi e stage, l’obiettivo è diventare un centro che produca almeno una dozzina di figure professionali qualificate all’anno, il cui network di _alumni_ possa generare un ecosistema di competenza e di innovazione.
+Facendo leva sugli studenti ed i ricercatori coinvolti in lavori di tesi e stage, l’obiettivo è diventare un centro che produca almeno una dozzina di figure professionali qualificate all’anno, il cui network di _alumni_ possa generare un ecosistema di competenza e di innovazione. L'esperienza presso il Digital Gold Institute è "centrifuga": un luogo da cui si passa per andare poi in altri lidi, magari internazionali.
 
-Per studenti e ricercatori l'esperienza al Digital Gold Institute è "centrifuga": un luogo da cui si passa per andare poi in altri lidi, magari internazionali. Le direttrici sono ricerca, sviluppo, formazione e rapporti con le aziende, partendo evidentemente dai partner che ci sostengono ed in sinergia con quel mondo accademico che si è mostrato attento e ricettivo al fenomeno bitcoin e blockchain (ad es. Milano-Bicocca, Politecnico di Milano, ESSEC, ecc.).
+Le direttrici dell'attività dell'Istito sono ricerca, sviluppo, formazione e rapporti con le aziende, partendo evidentemente dai partner che ci sostengono ed in sinergia con quel mondo accademico che si è mostrato attento e ricettivo al fenomeno bitcoin e blockchain (ad es. Milano-Bicocca, Politecnico di Milano, ESSEC, ecc.).
 
 In particolare il Digital Gold Institute ha come ambiti di attenzione e di ricerca:
 
@@ -22,7 +22,7 @@ In particolare il Digital Gold Institute ha come ambiti di attenzione e di ricer
 - notarization: application for insurance, digital ID, etc.
 - blockchain analysis and forensic: BlockSci, Hammersbald, etc.
 
-L'istituto è diretto da [Ferdinando Ametrano](https://www.ametrano.net/about/), a cui si affianca un [team](/team/) giovane ed estremamente qualificato. L’istituto è sostenuto da partnership qualificate: alcune sono pubbliche sul sito web, altre riservate, altre ancora da annunciare a marzo. Potete [richiedere](https://bit.ly/contact-dgi) l'elenco dei clienti per cui abbiamo lavorato a titolo di referenza.
+L'istituto è diretto da [Ferdinando Ametrano](https://www.ametrano.net/about/), a cui si affianca un [team](/team/) giovane ed estremamente qualificato. L’istituto è sostenuto da partnership qualificate: alcune sono pubbliche sul sito web, altre riservate, altre ancora da annunciare a breve. Potete [richiedere](https://bit.ly/contact-dgi) l'elenco dei clienti per cui abbiamo lavorato a titolo di referenza.
 
 Ai nostri partner offriamo come pacchetto base:
 
