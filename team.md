@@ -29,6 +29,7 @@ permalink: /team/
   Thesis: <https://github.com/SamueleVianello/MasterThesis>
 
 # Alumni
+<https://www.linkedin.com/school/digital-gold-institute/people/>
 
 * Giona Soldati ([gionasoldati](https://github.com/gionasoldati)), December 2018  
   Thesis: _An Advanced Signature Scheme: Schnorr Algorithm and its Benefits to the Bitcoin Ecosystem_ ([pdf](https://github.com/gionasoldati/thesis/blob/master/main.pdf), [source](https://github.com/gionasoldati/thesis))  
