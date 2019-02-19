@@ -58,7 +58,7 @@ Il training pu√≤ essere svolto in inglese o italiano, il materiale distribuito √
     - Asymmetric Cryptography on Elliptic Curves
     - Digital Signature Protocol
     - Elliptic Curve Signature Algorithms
-    - Lab: programmazione con [btclib](github.com/dginst/btclib)
+    - Lab: programmazione con [btclib](http://github.com/dginst/btclib)
 4. Addresses, Transactions, and Blocks  
    prerequisiti: modulo 1, 2 e 3; laptop per la parte sperimentale  
    audience: researchers, technologists, developers  
@@ -69,7 +69,7 @@ Il training pu√≤ essere svolto in inglese o italiano, il materiale distribuito √
     - Odds and Sods
     - Blocks
     - Historical Transactions
-    - Lab: Testnet (rete e transazioni), programmazione con [btclib](github.com/dginst/btclib)
+    - Lab: Testnet (rete e transazioni), programmazione con [btclib](http://github.com/dginst/btclib)
 5. Wallets and Bitcoin Core  
    prerequisiti: modulo 1, 2, 3 e 4; laptop per la parte sperimentale  
    audience: researchers, technologists, developers
@@ -79,7 +79,7 @@ Il training pu√≤ essere svolto in inglese o italiano, il materiale distribuito √
     - Hierarchical Deterministic Wallets: BIP32, BIP43, BIP44
     - Mnemonic Phrase: BIP39 and Electrum
     - Bitcoin Core
-    - Lab: Electrum, Bitcoin Core, programmazione con [btclib](github.com/dginst/btclib)
+    - Lab: Electrum, Bitcoin Core, programmazione con [btclib](http://github.com/dginst/btclib)
 6. Advanced Elliptic Curve Cryptography  
    prerequisiti: modulo 3; laptop per la parte sperimentale  
    audience: researchers, technologists, developers
@@ -91,7 +91,7 @@ Il training pu√≤ essere svolto in inglese o italiano, il materiale distribuito √
     - Confidential Transactions
     - Range Proof
     - Bullet Proof
-    - Lab: programmazione con [btclib](github.com/dginst/btclib)
+    - Lab: programmazione con [btclib](http://github.com/dginst/btclib)
 7. Monetary and Token Engineering  
    prerequisiti: modulo 1  
    audience: c-level, manager,  researchers, technologists, developers
