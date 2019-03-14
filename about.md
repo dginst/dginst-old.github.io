@@ -4,13 +4,14 @@ title: About
 permalink: /about/
 ---
 
-DIGITAL GOLD INSTITUTE SRL  
+DIGITAL GOLD INSTITUTE S.R.L.  
 Via Massimo Gorki 47 - 20098 San Giuliano Milanese (MI)  
 Codice Fiscale, Partita IVA e Registro Imprese: 10481200961  
 Codice destinatario: SUBM70N  
-REA CCIAA MI-2534614 - Capitale Sociale €10.000 interamente versato
+REA CCIAA MI-2534614  
+Capitale Sociale €10.000 interamente versato
 
-web: [http://dgi.io](http://dgi.io)  
+web: [http://dgi.io](www.dgi.io)  
 email contact form: <http://bit.ly/contact-dgi>  
 PEC: [dginst@pec.it](mailto:dginst@pec.it)
 
