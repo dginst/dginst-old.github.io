@@ -11,7 +11,7 @@ Codice destinatario: SUBM70N
 REA CCIAA MI-2534614  
 Capitale Sociale €10.000 interamente versato
 
-web: [http://dgi.io](www.dgi.io)  
+web: [www.dgi.io](www.dgi.io)  
 email contact form: <http://bit.ly/contact-dgi>  
 PEC: [dginst@pec.it](mailto:dginst@pec.it)
 
